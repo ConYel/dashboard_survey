@@ -61,6 +61,31 @@ imported_data %>%
           panel.grid.major = element_line(size = 0.4),
           axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 12),
           axis.text.y = element_text(size = 10, colour = "black"),)
+
+number_of_people <- 100
+
+atom_id <- ids::random_id(number_of_people)
+group <-  c("PhD", "PostDoc", "assistant_prof", "prof")
+n_group <- sample(group, size = number_of_people, replace = TRUE)
+
+imported_data_inst <- fs::dir_ls( recurse = TRUE, 
+                                  path = file.path("inst_lists"))[1:4] %>% 
+  vroom::vroom(id = "country", 
+               delim = "\n", 
+               col_names = "institution", 
+               col_types = "c") %>% 
+  slice_sample(n = number_of_people, replace = TRUE) %>% 
+  mutate(country = basename(country) %>% stringr::str_remove_all("Institutes_|.txt"),
+         id = atom_id,
+         group = n_group
+         )
+
+imported_data_inst %>% 
+  filter(country == "Algeria") %>% 
+  ggplot(aes(group, fill = group), position = "stack")+
+  geom_bar() +
+  coord_flip()
+
 ```
 
 
@@ -84,14 +109,17 @@ ui <- dashboardPage(
 )
 
 server <- function(input, output) { 
-    set.seed(122)
-    histdata <- rnorm(500)
+    
     
     output$plot1 <- renderPlot({
-        data <- histdata[seq_len(input$slider)]
-        hist(data)
+      imported_data_inst %>% 
+        filter(country == "Algeria") %>% 
+        ggplot(aes(institution, fill = group), position = "stack")+
+        geom_bar() +
+        coord_flip()+
+        ggtitle(label = "Responses from Algeria")
     })
-    output$rawtable <- DT::renderDataTable((DT::datatable(imported_data)))
+    output$rawtable <- DT::renderDataTable((DT::datatable(imported_data_inst)))
 }
 
 shinyApp(ui, server)
