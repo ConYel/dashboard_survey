@@ -1,0 +1,1001 @@
+country	institution	id	group	country_cd
+Egypt	Misr International University	1c10937ff8c3a38f9034ac7bec7ab624	PostDoc	code_2
+Nepal	Department of Food Technology and Quality Control	aa4dda4ca74fee03148d9dd9d031c7d6	PhD	code_4
+Czechia	SCIA (Czechia)	d6b9d545a953614972b9fe50888a8453	PostDoc	code_2
+Norway	Onsite Treatment Technologies (Norway)	dbbe9d574da5f7c62c5ac1312b420e08	PhD	code_4
+France	Groupe Francophone des Myélodysplasies	6307448bc3e1e9b95bcc4bfda31de861	PostDoc	code_2
+Australia	National Breast Cancer Foundation	c16cc48ec240acbddbdb15cc0d8ca6b2	prof	code_1
+Germany	Asklepios Klinikum Harburg	129b048109c45f68fee5d7f3a156820f	prof	code_2
+Netherlands	Federatie Medisch Specialisten	3b0c9b10b5ba47fc0fc0e9a1c64dc0d3	assistant_prof	code_4
+Germany	Sachtleben (Germany)	5c97aaf4a47e5675972eb2a8cb062399	PhD	code_2
+Italy	Piedmont Reference Center for Epidemiology and Cancer Prevention	88f8720243a9e1112bba9a6f3f15d3ec	prof	code_3
+Canada	Yukon University	f41b1efeed593f53f05f5d1d3d92610d	PhD	code_1
+Switzerland	Children's Oncology Group	5ac45f492b6fccf160e812c946f6b11c	PhD	code_5
+China	International Transport Information Systems (China)	ceef99e3f16409a0d09eb344873ec57b	PostDoc	code_1
+Argentina	Red Argentina de Instituciones de Microcrédito	425f11f37d7fa09a585d1d37b04a6545	PhD	code_1
+Germany	Herrenknecht (Germany)	eb480e8b59ed9c65f79a070b508eccab	prof	code_2
+France	Chemineau Labs (France)	a5bd12f1cf5f4f3369376e7e7c449623	prof	code_2
+Germany	Kinderklinik Regensburg	bd9686a420c87326f56b90430abaf0bc	PostDoc	code_2
+Netherlands	ELEQ (Netherlands)	f3bc6862e4e31c4a46a1c6f22db00dca	PostDoc	code_4
+Australia	Association for Tertiary Education Management	51ffb33e80307b9c010d037cc581a3a9	prof	code_1
+Austria	Verlag Holzhausen (Austria)	48e5c662b98455f04e7efd7efae0e5e9	PostDoc	code_1
+Italy	Eisai (Italy)	6c7da072f6e3b4d24fab30d669621c8e	assistant_prof	code_3
+China	Key Laboratory of Chemistry for Natural Products of Guizhou Province and Chinese Academy of Sciences	1f7b6e484c2a5be7e2250af6f59a415d	PhD	code_1
+India	International Centre for Theoretical Sciences	f19147b4e051bf2b425ab5673d926de3	prof	code_3
+Brazil	Ponta Grossa State University	8953588adcbdbdd091943707a1755d07	PostDoc	code_1
+United Kingdom of Great Britain and Northern Ireland	Glyndwr Innovations (United Kingdom)	fee0256a39946d20facf026d94e50875	PostDoc	code_5
+Egypt	Future University in Egypt	ad9a41805048c517bf7fd8c4da2d9886	PostDoc	code_2
+France	Missions Publiques	95ef63154a83833734da7f06fd25d3f2	PostDoc	code_2
+South Africa	South African National AIDS Council	1f43b646850e07fa5295505bae8313c3	assistant_prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Sport Wales	8a9f817292e4bbaef2e59a4b33d48736	prof	code_5
+Switzerland	Veterinary Anaesthesia Services (Switzerland)	b83e4f07bab7365119ad4897a3315fa3	PostDoc	code_5
+United Kingdom of Great Britain and Northern Ireland	Newport Museum and Art Gallery	313d09094b4d70b927b1e9d9e77d7e5d	prof	code_5
+Czechia	HPH (Czechia)	84d4795bbfb5f591a121868f6812c087	assistant_prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Eight19 (United Kingdom)	9c6d7c6ac0c060c4444decb5ccaa72ba	prof	code_5
+China	Jinzhou Kangning Hospital	58ed0b2966cc7101ab01731287cde6e5	prof	code_1
+Germany	NanotecMARIN (Germany)	1c9ec8469b9ba650e39df286a8be19b1	assistant_prof	code_2
+France	École Nationale Supérieure de Formation de l’Enseignement Agricole	de30fa9748022a16aa28efe624b33b2f	PhD	code_2
+Ukraine	Interregional Academy of Personnel Management	f89804c533d2b3861bd11b50ae5d043e	PostDoc	code_5
+France	Bioprojet (France)	586e05eddae7424d0f209b7ed207dea3	PostDoc	code_2
+Italy	Accademia della Crusca	a2fd2f5e8cf74b96b38dd3548e5b7d98	assistant_prof	code_3
+Czechia	Puppets in Hospital	c91685623495b5ca74343fbb1a64d095	PhD	code_2
+Portugal	National Museum of Ancient Art	9c8e95a20dd3bc54c02f9562747d9e41	PostDoc	code_4
+Canada	St. Joseph’s Healthcare Hamilton	7091a879dbf623625cbe0f69158b335c	PhD	code_1
+Russian Federation	Nizhnevartovsk State University	599461d1905e8a18e562c9f64f579c18	assistant_prof	code_4
+Australia	Indigenous Wellbeing Centre	ab553746b2396fc086d7a120a44940bc	PhD	code_1
+Republic of Korea	National Science Museum	b4d5b4a8dc8726908abd0cdc2b49db13	assistant_prof	code_4
+China	Biomarker Technologies (China)	b0b9470b6a3a03f774860a52fc81cbc2	PhD	code_1
+India	Astellas Pharma (India)	ba4ea53ebe2cc184d2fe9b5d2c0d79a5	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Brick Development Association	e572b48c6f31c81001f77faa271e7a70	PhD	code_5
+Italy	Industrie Borla (Italy)	f26e183f9c74730da32f420e9fbc2d42	prof	code_3
+Israel	Misgav Ladach	0c0d31aeddad15f0daa433302448c1e1	PhD	code_3
+Japan	Japan Research Institute	d51a658463c0dda8ca3bcca0249c117a	assistant_prof	code_3
+Germany	Brandenburg University of Technology Cottbus-Senftenberg	5aa1d7f9021f67b6dcd63a16238a9e15	assistant_prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Energy Technologies Institute	34be83d8220438e9ddc1f465e4691dd4	prof	code_5
+United Kingdom of Great Britain and Northern Ireland	University of Bradford	d4262681306cbbb5f72a615cf1e333df	prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Physiological Society	9432451b6bac2f88f60940b963b1074a	PostDoc	code_5
+Germany	Arbeiterwohlfahrt München	a84d95a246957ba7473700bea717e694	PostDoc	code_2
+Brazil	Aliança Orgânica Soluções Ambientais (Brazil)	68592bf5b6123be211d36d7f7ac79320	PhD	code_1
+Russian Federation	VNIIStrudormash (Russia)	25bfc6673e22f22fc9a59a590e310308	prof	code_4
+Germany	Archdiocese of Cologne	c438916c8b356f842f73bbf12365e883	PhD	code_2
+Brazil	Feminist Institute for Democracy	acc3860658cd0603d5b386ad10996c03	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Environmental Information Data Centre	56503489a0eae753d72f8e88615e8ec1	assistant_prof	code_5
+Afghanistan	Kabul University	170e7822b3bd45b351162b7c05f213d4	assistant_prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Institute for Jewish Policy Research	6b1de786bd52e9a80481f22de9e048c0	prof	code_5
+Germany	Enviscope (Germany)	6a538210ba019802ffea51d0339c4b10	PhD	code_2
+India	Calcutta Research Group	20dca75a0c9f7f199fb6ba4cc4821c0f	PostDoc	code_3
+Switzerland	Virtu Public Affairs	07847f135bc1378a94a2bf587d682782	PhD	code_5
+China	Ningbo Polytechnic	a28dc5a29600de5329b882a415f266e7	PostDoc	code_1
+Japan	Kagawa Nutrition University	ad9bc9829f65723a2b7f1619a1ce4c5e	PostDoc	code_3
+Italy	Istituto di Neuroscienze	12a07e2d816f872ff16ddc69d5b2ecae	PhD	code_3
+Japan	Japanese Red Cross Nagoya Daiichi Hospital	471a331a24036277c1a54b249dd788f6	PostDoc	code_3
+Republic of Korea	The Korea Association of Yeolin Education	23023e380aee35f9e3c5d9d69ad6e9a2	prof	code_4
+Philippines	Department of Environment and Natural Resources	b55815845501ef87f259bd4b6f4d1482	PhD	code_4
+United Kingdom of Great Britain and Northern Ireland	West Of Scotland Housing Association	46969f07661a36ed0473c49ec249b32b	PostDoc	code_5
+Italy	Istituto Zooprofilattico Sperimentale della Puglia e della Basilicata	0a99f778dec135ea4d794fa1e96672f8	PostDoc	code_3
+Mexico	Mathematics Research Center	145812f3dde18d208bd42888e58a6967	PostDoc	code_3
+United Kingdom of Great Britain and Northern Ireland	Bristol Homeopathic Hospital	689fb31bf7ac6d61418b309d7c9aa868	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Greater Manchester STEM Centre	702c1d41ad190f684e5ab157e8cf2a2b	prof	code_5
+Netherlands	Tilburg University	b7028a65aef5c45ab4d516b61e4ec8e9	prof	code_4
+United Kingdom of Great Britain and Northern Ireland	International Foundation for Integrated Care	de3428a17d94c7ba94b1fc332247fa29	assistant_prof	code_5
+Canada	Enerkem (Canada)	bdd4abf0319df38de1f3d0741fe10e24	PhD	code_1
+Iran (Islamic Republic of)	Zabol University of Medical Sciences	3fd97322f5e94ecd9767b847389ab418	PostDoc	code_3
+Germany	Parmenides Foundation	9ef4bc5904b71a688abfb5ca08efaa65	PhD	code_2
+Slovenia	Urban planning Institute of the Republic of Slovenia	84879282f21696bc80f2713f9809d16e	PostDoc	code_5
+Denmark	Center for Interdisciplinary Studies of Molecular Interactions	83ab782b5d59add9d88d5c49d290e21c	prof	code_2
+Sweden	AlzeCure Pharma (Sweden)	926695858988d47dabc958b8197a4e02	prof	code_5
+Belgium	Health Information Management	2733e9b172f60cce1a26b08a23f7f8b7	prof	code_1
+China	North University of China	d23043b747c5cf2c042338d2bd7000cc	assistant_prof	code_1
+Canada	Cypress Health Region	bb56adf120af5be121df2bb292e75eb3	PostDoc	code_1
+Switzerland	Blum & Grob Attorneys at Law	a75013f702151f762c2052f4dbc5fee6	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	NEC (United Kingdom)	a7bc3908379a9aaf7555277b0dd50e9c	PostDoc	code_5
+Spain	Instituto Químico Biológico	d64204160569e6498a71e61ac1414ca3	PostDoc	code_5
+Mexico	Institute for Scientific and Technological Research	cafdc528c0057eecb746721dea1d65a8	assistant_prof	code_3
+Brazil	Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina	85818286c3dddc59e2cafe002629a962	PostDoc	code_1
+United Kingdom of Great Britain and Northern Ireland	Institute of Bio-Sensing Technology	b575e3ab7dce8cfadb676fb32b44f28c	prof	code_5
+Morocco	Haut-Commissariat aux Eaux et Forêts et à la Lutte Contre la Désertification	8d90be5179e417bcd2dae0c5a7907a29	PostDoc	code_4
+Switzerland	Büro für Arbeits und Sozialpolitische Studien	46ceae4021709a72e3201b5d2fc2f017	prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Alder Hey Children's NHS Foundation Trust	3bf5b48ce37d4023a2919e13a2e77f3c	prof	code_5
+France	Laboratoire des Technologies de la Microélectronique	284f1be7dacf77378555299037de5bf4	PostDoc	code_2
+Brazil	Tecnocard (Brazil)	4c969d47c9dd2bf04d9294228ca8b68d	prof	code_1
+Slovenia	Krka (Slovenia)	03b52c114a1cb123bd37f077e80c05c6	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Wessex Regional Genetics Laboratory	cab2325a4bf0c12aeba6053bbf1df363	PhD	code_5
+Canada	Centre Jeunesse de Quebec	602367160b608f74a563b21e939b0acb	assistant_prof	code_1
+Austria	Interdisciplinary Centre for Comparative Research Foundation	1892b65737d0f644e1a0e3e2587c9482	prof	code_1
+Indonesia	Universitas Pahlawan Tuanku Tambusai	c92118cf56bb9b70656c2f7deeb215d6	prof	code_3
+Norway	Norske Skog (Norway)	cc094252b6f568310058d9e4131c520e	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Scottish Hydrogen and Fuel Cell Association	fd371093d1a3311058c90933be491f17	PhD	code_5
+France	Institut Européen De La Qualité Totale	5ae484d4d8ed3fbe9b8e59db187627a1	PhD	code_2
+Brazil	Kryptus (Brazil)	0b005539f150dfcca1902868e997df52	assistant_prof	code_1
+Canada	Kativik Regional Government	b210fc8e092ffcee2875bbbcdb8d4209	prof	code_1
+Slovakia	International Centre for Applied Research and Sustainable Technology	5fc89b5e19913bdbb1e4926c6dfd8017	PostDoc	code_5
+India	Centre for Policy Studies	6475206c90be674b5b449118e6518a9f	PostDoc	code_3
+Switzerland	Swiss Group For Clinical Cancer Research	b59f65b8c43f015de1039b8bb904c2bb	PhD	code_5
+Ireland	King's Inns	c14cd9b15887d39fcf89e31a9c88aed7	PostDoc	code_3
+Canada	Quantic EMC (Canada)	423ae95c49d61e6d855adfbebe7b399c	prof	code_1
+India	Hindustan Latex Family Planning Promotion Trust	fcee878e3c3ce1eb438d2ac93b06913f	prof	code_3
+Belgium	Research in Advanced Medical Informatics and Telematics	5e5331131588e272650fad99ccc8b99c	PhD	code_1
+United Kingdom of Great Britain and Northern Ireland	STMicroelectronics (United Kingdom)	117d6d9aa0e6319b0485b74fbeb1da0f	PhD	code_5
+Canada	Québec Consortium for Drug Discovery	1ac6c2b32de29195ee32c9f21d9e3cd8	assistant_prof	code_1
+Italy	Institute on Membrane Technology	bfa4ff7a81ac0777cabc75606de53530	PhD	code_3
+Zambia	Lusaka Apex Medical University	c3e50ca8cdba14dea26157064ad94a78	assistant_prof	code_5
+Russian Federation	Novokuznetsk State Institute of Advanced Medical Education	3e257287cd70759790ad04cd6e1c8877	PhD	code_4
+Sweden	Gleechi (Sweden)	9da189976d18456dd334521eded91ab1	PhD	code_5
+Germany	University Medical Centre Mannheim	72b459cf5525dcfa835aa86b3af9d40d	PostDoc	code_2
+Sweden	Swedish Incubators & Science Parks	ea780f97cb1272084f102e4eec5d7632	PostDoc	code_5
+Belgium	University of Antwerp	30c7335dff0ee35d5a880e7085c64647	prof	code_1
+Spain	Barajas Clinic	5735a79d3d0e5be61cee3eb543f732e9	prof	code_5
+Czechia	Strojírenské Inovační Centrum (Czechia)	f84f2791de6032d8b182ebdc27445b4f	assistant_prof	code_2
+France	École Supérieure des Technologies Industrielles Avancées	d25ebf397c58e5dc43411256f655644f	PostDoc	code_2
+Italy	Center for Genomic Science	899203dd56f3f4b9f0d620d93daa58f8	PostDoc	code_3
+Bahamas	College of The Bahamas	c2e0f9b32966a6c80ec8948c91ad8412	assistant_prof	code_1
+Russian Federation	Sakhalin State University	2419ffe87a28e2a87b1a2b586f4cb8a8	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	University Hospitals Coventry and Warwickshire NHS Trust	cbb1988783b6819939c983141a858bbc	PostDoc	code_5
+Germany	Kommission für Geschichte und Kultur der Deutschen in Südosteuropa	bde3bbe080778d0aa50147e3fe7f34be	PhD	code_2
+China	Jiangxi College of Applied Technology	bc9c67ce29a03bd4fcd71fde13e6b753	PostDoc	code_1
+Germany	Mattson Technology (Germany)	f0f3d8bd7db1372c532fe11f152c6fbe	assistant_prof	code_2
+Japan	The Mainichi	b4a6e8a827a7cd45b6770b6cec883eb9	prof	code_3
+France	Pierre-Gilles de Gennes Institute	12960a0eec541ece259321eb8bea3215	PostDoc	code_2
+Russian Federation	Russian Federal Centre of Forensic Science of the Ministry of Justice of the Russian Federation	5a765fb0890b610dd0d49f6df8e0c053	PhD	code_4
+Argentina	Chemotecnica (Argentina)	d3564af6f0d5f92beb9601c5364d6c5e	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Saffron Walden Community Hospital	754f22cf731085169ed640344cfd0fde	PhD	code_5
+France	Diversity, Genomes and Insects-Microorganisms Interactions	e3f1f1ce59774688a6e76ce7ce425816	assistant_prof	code_2
+China	Chinese Academy of Engineering	de6bea501123ebf7fb9fa3e55addcd02	PhD	code_1
+United Kingdom of Great Britain and Northern Ireland	Northumbrian Water Group (United Kingdom)	fcf9c52093d5d61a746107b8ae857d97	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Breyer Group (United Kingdom)	65c30c84eb19a5e0079d5498112ea7fd	prof	code_5
+Italy	Pluservice (Italy)	340e68b1b4ebc2232fc9383ae0954907	assistant_prof	code_3
+Poland	Krzysztof Kucharczyk Techniki Elektroforetyczne (Poland)	2b5e2f16e6ea514835af320a4775de13	assistant_prof	code_4
+China	eSpot Lighting (China)	c21df1da8db2f6d6817e1cd6314cddab	PostDoc	code_1
+Italy	Trasporti e Territorio	8494f5d50367058a8c15dddacd8fd1a3	assistant_prof	code_3
+Italy	Elettra Sincrotrone Trieste	0481664aabe83cf6385efa4d2144ddf8	assistant_prof	code_3
+Russian Federation	Mining Institute of the Ural Branch of the Russian Academy of Sciences	7beaeccbffaa37ba0bdaeb57b35985e7	prof	code_4
+Austria	Austrian Institute of Historical Research	1c2cf44892c13a7d655de24f9154dc9f	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	MediWiSe (United Kingdom)	ec73d0e68e2e5ba4c1afb54191ecca52	prof	code_5
+Latvia	Tehnoloģiju Attīstības Forums	28fc726d9ca4c217a886520444ed52f9	PhD	code_3
+Republic of Korea	The Society of Modern Literature Theory	243ea1b0193e4ef7c058688064c51ad3	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Site Vision Surveys (United Kingdom)	bec1a641ccede28bdb80b163dfbc9ca0	assistant_prof	code_5
+Sweden	Saint Göran Hospital	d02454b65ced9b686c167652fc8abc4b	PostDoc	code_5
+Canada	Société Canadienne de Science Economique	1cf1cd1b082cf775d5daff31e600dce1	PostDoc	code_1
+Peru	Scientific University of the South	bad91b910a073b41d677d25c9773aa45	assistant_prof	code_4
+Norway	Glåmdal Regionråd	7fc95aa6391113644ca8ca9a072bdbcc	PhD	code_4
+Brazil	Siporex (Brazil)	74932e8bc89c29e2ed5c34774f637058	PostDoc	code_1
+Spain	Synthesia Group (Spain)	ee5d6f8f20b71093f79d50d9a2893ca4	PhD	code_5
+Germany	Institut für Site und Facility Management	142746c278a257512ebeff9c1467f01a	assistant_prof	code_2
+Netherlands	Reach-Aut Academic Centre for Autism	90dd30cb53a1ef7b7d037da8b7415e23	assistant_prof	code_4
+India	Vasantdada Patil Ayurvedic Medical College & Institute Of Yoga	860a4cb0ca1e1ae226a6f7215ea047c3	assistant_prof	code_3
+Switzerland	Spectrum Dynamics Medical (Switzerland)	bbeac44d68cfa59541057b172b8d2c83	assistant_prof	code_5
+Denmark	Haderslev Hospital	563c421d565529ae025d51ada24bf3a2	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	Worldwide Cancer Research	829cd36b2a78eeb69bc47da164f61d42	assistant_prof	code_5
+Germany	Fraunhofer Research Institution for Battery Cell Production	2d53ed9e258660616ca0a8dd6097a6a6	assistant_prof	code_2
+Russian Federation	Institute of Numerical Mathematics	ce5565073d1220f4635f0db21aa7597a	prof	code_4
+Russian Federation	Institute for Languages ​​and Cultures Leo Tolstoy	e9885594db3e455757a36b963c632d8f	PhD	code_4
+Republic of Korea	Hanyoung Theological University	15f2e11ef8ab4e90531cfccbe7879527	PostDoc	code_4
+India	Software Training and Development Centre	965360dc349ee805d482ed8843846dfa	prof	code_3
+Türkiye	TED University	c4d50681e008efc5f58bb5478b10619a	prof	code_5
+Estonia	Tilde (Estonia)	beca3a0efe2836151b0fe1473bb08bcd	assistant_prof	code_2
+China	Institute of Zoology	9802d02121cbd446e889feff2eb973ec	PhD	code_1
+Germany	Deutsche Gesellschaft für Erziehungswissenschaft	388bef71dccfe4783999a84bcf422d46	PhD	code_2
+Netherlands	Exor (Netherlands)	e405fcc99ccedbf2a8e69c6d1885a6fa	prof	code_4
+Australia	Nazarene Theological College	a3dc826d9dbe0acb3baadcba25fe2721	assistant_prof	code_1
+Ireland	Bard (Ireland)	33f7875ff429b017d44cceecf69480c9	assistant_prof	code_3
+Canada	Novika Solutions	f88f7792b38452c171d41ebbd663e178	PhD	code_1
+Honduras	Universidad de San Pedro Sula	d05bc0ae4423e633cdf401d816584737	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Llandrindod Wells Hospital	3275bd9dc7a202c3280d3b6277e9f690	prof	code_5
+Sweden	MetaSolutions (Sweden)	b3eaf20093f4c79545b0425555395e7d	assistant_prof	code_5
+Republic of Korea	Sungae Hospital	6bffa1f2417d5a7e99c5f63a475ff501	prof	code_4
+Viet Nam	Forest Industry Research Institute	fcc7232f0eb5715d5bd3b77b50bb361c	assistant_prof	code_5
+Republic of Korea	Korea Foundation for Max Planck POSTECH	3d50716ff32c64d5d0c244e072065adb	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Kennedy Martin Health Outcomes (United Kingdom)	39aa7b75bcfd24fb6931eb5d3749bd3e	PostDoc	code_5
+Spain	Accenture (Spain)	f2102b9e923440a5b0eb3214dbaa41ee	assistant_prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Cranfield Impact Centre	8d16df99a3671ce31dca304fd2a4c5d8	prof	code_5
+Brazil	bioMérieux (Brazil)	07daee190b6faade9e76008c018e2a9d	assistant_prof	code_1
+Australia	Rural Training Initiatives	56b52c4287fc0980494db75f2114f1b3	prof	code_1
+India	Sri Rajiv Gandhi College of Dental Sciences and Hospital	f8c252b14ed2cc4124cbbd395bd165bd	PostDoc	code_3
+Iran (Islamic Republic of)	Islamic Azad University, Bojnourd Branch	dca77c4f72d885aba2d044bbe6be523c	prof	code_3
+France	Société Française de Cardiologie	f822725514dc970549c326d267c45850	PhD	code_2
+China	Center for Agricultural Research	cc534194fbaf1af6422d2be851b7d98f	assistant_prof	code_1
+Australia	Rural Training Initiatives	d80e1dd8ba5aa740bfbb184c2bac6677	prof	code_1
+Czechia	Redam (Czechia)	c106101f10e3645eaa7685dcbc05d50d	PhD	code_2
+China	Shanghai American School	74c4c6777356a9fbb8a48862d8352e65	assistant_prof	code_1
+Brazil	Secretaria de Desenvolvimento Econômico e Turístico	013d4ab89b8558e6929bae6d28e9c035	PostDoc	code_1
+Viet Nam	Ministry of Information and Communications	f784d45fb98bd9fd0d6ab19b0ec8315e	PostDoc	code_5
+Ghana	West End Hospital	b82481582acf8323027e7010b344efe0	assistant_prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Cloud Security Alliance	11fd33984148d094d808fbee51487bdf	assistant_prof	code_5
+Germany	PI Photovoltaik-Institut (Germany)	dfcc096d77e899a98589515a1528ade3	assistant_prof	code_2
+Norway	Elkem (Norway)	1faf064bc6de3ff1ffe626b50488f2eb	PhD	code_4
+Germany	Life & Brain (Germany)	a3ca3446266bcc2453de3fb9a0afc7f6	prof	code_2
+Germany	Max Planck Institute for Neurobiology of Behavior – caesar	17a842b420474dbfc3e4d90c03a269a7	PostDoc	code_2
+Portugal	ADIRA (Portugal)	c1d7df7236517e98064abef67945deeb	PhD	code_4
+Poland	Polkom Badania	4b602df4aa3512acbfbcee2340aef67d	PhD	code_4
+Colombia	Kavilando	ecf7a277e62d7ad20d43c715d5eaee81	assistant_prof	code_2
+Taiwan (Province of China)	China Medical University	c0fbfbdf5fe8340cdcce45241219c549	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Consort Medical (United Kingdom)	9683dd6112faa981c679b0e7b454de5f	PostDoc	code_5
+United Kingdom of Great Britain and Northern Ireland	Statiflo International (United Kingdom)	704de24f18419ddc07eb22ac20d3a505	PhD	code_5
+Norway	MicroA (Norway)	6d67863381d2398e4d56e332e10205f6	prof	code_4
+South Africa	South African Agency for Science and Technology Advancement	70b820e5e0102703602d1a0fd3c3f52a	assistant_prof	code_5
+Brazil	Fluminense Federal University	afc79108a0718639cafc5d9aae9da85a	assistant_prof	code_1
+Bulgaria	Medical University Plovdiv	837838c9b2c3e67f6ba2e1b5f293bed2	PostDoc	code_1
+Czechia	Electronic Product Services (Czechia)	d7f7b4a4770bd7404120360af864f902	assistant_prof	code_2
+Ghana	Council for Scientific and Industrial Research	26af3fef2b0474d0c9185b771076d287	prof	code_2
+Netherlands	Association of universities in the Netherlands	976a11ba13f3e5c58f62e72e9a964c3b	assistant_prof	code_4
+India	Guru Gobind Singh Indraprastha University	00d643d133af0f177bb416f8bbfd8972	assistant_prof	code_3
+Netherlands	Podocentrum Alkmaar	b6bccb1c73a12d3ef0f9d0896f03512d	PhD	code_4
+Kuwait	Chest Diseases Hospital	20ff06a02144cb3daf5a1ff8d79c1f0a	PostDoc	code_3
+Canada	Association for Canadian Studies	452b46ee9b8a2ccbadca8878d665f9c0	PostDoc	code_1
+China	Hefei Normal University	4d6a965dd0f4adf9c576f933e32c1abf	PostDoc	code_1
+Sweden	Swedish Society of Oncology	a7049be224887fe49f6ade7ec224090e	PostDoc	code_5
+Argentina	Universidad de la Ciudad de Buenos Aires	66ff6e6a8ba5abb1107373697d3e7024	PhD	code_1
+Belgium	The German Marshall Fund of the United States	dff5d5b9ea07e198fbdf334e04047c2c	assistant_prof	code_1
+China	FirsTune (China)	2c9d47a162cabe8354ae31f0eea0593c	prof	code_1
+Republic of Korea	The Linguistic Society of Korea	4c02e13a658fc34966fcefa87611c9f7	prof	code_4
+Czechia	Czech Academy of Sciences, Institute of Experimental Botany	7a7a1aa43cb2b182f7d8e41222d9b738	PhD	code_2
+Sweden	Stena Recycling (Sweden)	7ef64d95e1800f66dfbd39037f0155ee	PostDoc	code_5
+Brazil	Secretaria de Estado da Ciência, Tecnologia e Inovação	ac6cc06087a0b6d1fd339e529e3bf537	PhD	code_1
+Israel	Lumenis (Israel)	02fc85af683f78fbcb9ae84729b6af3c	PhD	code_3
+China	Teledifusão de Macau	5436d21673d939c0feb87e1baa6c6630	prof	code_1
+Slovenia	Anton Trstenjak Institute	5bffb0e81dc5d36253881681f0c1740c	prof	code_5
+Netherlands	Gemeente Eindhoven	4f8d6bfc81149e1788bcbc1b6d116b98	assistant_prof	code_4
+Canada	Staples (Canada)	2606e8c2a7cbb9ca6632f79191cd55de	prof	code_1
+Denmark	Dansk Røde Kors	f6f6f2164607b331643fcd3e4f6d77d4	PhD	code_2
+China	Shaanxi Yulin Energy Group	99b299c39839d7c117e2f3b640e3b13b	PhD	code_1
+Italy	Consorzio per la Ricerca e l'Educazione Permanente	53f4827a8dffeb7781e85bfd037d430a	PostDoc	code_3
+Slovenia	Slovene Ethnographic Museum	a8ce929081f1fc3ec22c9db929dd0b0b	PhD	code_5
+China	National Health and Family Planning Commission	7d6d349c699948ab1f968f2fa2c89ac7	assistant_prof	code_1
+Netherlands	Phelps Stichting voor Spastici	2502ef585cd605dc03446a33e1b01e4d	PostDoc	code_4
+Lithuania	Centro poliklinika	528c2e0a2f50b848fda89f6ed1428177	prof	code_3
+Philippines	St. Scholastica's College	10807174f690fefad69965348cc2b3ea	assistant_prof	code_4
+Switzerland	Cochlear (Switzerland)	a7a06b4a071ca319bcfdc94091a194fd	prof	code_5
+Romania	National Institute of Hydrology and Water Management	e9e6c73b99446c7abaecfe2d837b517e	PostDoc	code_4
+Norway	Fesil (Norway)	94f29088e05bb4a906ce5c19bacc124d	PhD	code_4
+Poland	University of Security in Poznań	28bb60024796bf10fff8f40a1b3b2fdb	PostDoc	code_4
+Australia	Breast Cancer Network Australia	5a0b41bc9c0009a33ce6266c2416d2bf	assistant_prof	code_1
+China	China Fishery Machinery and Instrument Research Institute	a151e38f016bab1fc494f6e6e277c541	assistant_prof	code_1
+Czechia	Krkonošská Realitní	f61dbfaa9f7091cfcf9184d332d6a62b	PostDoc	code_2
+Japan	Aso Iizuka Hospital	8ccdc66007aacd6464fb71f2ff7252b4	assistant_prof	code_3
+India	NIIT (India)	2c26fbd404ff8fd244367aa1be269d3e	PhD	code_3
+Canada	Aluminerie Alouette (Canada)	bbea3c076755abcab933bc8829b92034	prof	code_1
+United Arab Emirates	Dubai Medical College	ab0c658d59a97226bde52d0db89b9d79	assistant_prof	code_5
+Spain	UCB Pharma (Spain)	5ab4e78e56c3b0f579bc1009ce0656e1	PostDoc	code_5
+Poland	Future Voice System (Poland)	2ca4d6bcdbbbbdea9f448778294a744a	PostDoc	code_4
+Germany	Institut für Umformtechnik (Germany)	0620d1cbc502444252e2027da02708bc	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	Oxfam	347ae6096d049677390912de2b634c91	PhD	code_5
+Pakistan	Chandka Medical College	9c85fb968d27f5c98f55e3fd44a7a8dc	PostDoc	code_4
+Germany	GeneXplain (Germany)	b3ab3adb07b75e0e2c6e164d5451e141	PhD	code_2
+Taiwan (Province of China)	Taiwan Agricultural Research Institute Council of Agriculture, Executive Yuan	386303ea1930a0bad9657564ab8405ac	PostDoc	code_5
+Italy	Piaggio Aerospace (Italy)	f4ad4dd7e196f1883efc5d6a0a20426e	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	IEA Clean Coal Centre	19d0b494611a9959c98d49e90fd7d4b3	PhD	code_5
+Italy	Synthema (Italy)	f8f6943e5262a366ab6744ec4b358085	PhD	code_3
+Russian Federation	Nizhny Novgorod State Technical University	cad819213f5d9ce9f034063e2002261c	prof	code_4
+Iran (Islamic Republic of)	University of Bojnord	f090a802389ccea12659077c41accf5a	prof	code_3
+Mozambique	ActionAid	8ae4a7a08da0971881877b105a2d8661	PhD	code_4
+Kenya	Kenya Methodist University	3d4a9cde91c83ee04ba911c7898c48f5	prof	code_3
+Sweden	Colloidal Resource (Sweden)	0d7800794a8b5baad0d1cc853063b517	assistant_prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Schauenburg (United Kingdom)	47a1ec73fec3df69a1d2c9fa42b9ce7a	PhD	code_5
+Brazil	Instituto Sócioambiental	eb69784c0427070a7b591ddcf0afc022	PostDoc	code_1
+United Kingdom of Great Britain and Northern Ireland	PNO Consultants (United Kingdom)	7ef399bd163699ab1789ef2f8db427ab	PhD	code_5
+Norway	Norsk Hoppemelk (Norway)	1769864c320800d611ecfe781d860ec1	assistant_prof	code_4
+China	Guangdong Provincial Academy of Environmental Science	140adbd36f23055d1649176d73589c12	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Harlow College	54a3513bd58ad03d060a23dcf3434605	PostDoc	code_5
+Ireland	International Information Management Corporation	36255caaa9504a341150292d7fc9df0f	PostDoc	code_3
+Australia	Reef Ecologic	4d38f3a25531330983b8c2c98c276f2e	PhD	code_1
+Germany	Harro Höfliger (Germany)	14b7267bac2b985e2e2cdf1e56b3e41e	assistant_prof	code_2
+Italy	Azienda Ospedaliera di Perugia	38145252422fa16c452e064bd5db2cc4	PostDoc	code_3
+Czechia	Brno International Business School	a458b7b3eac6973ff083809b73f552de	prof	code_2
+Japan	Senshio Rifu hospital	49849fdf7a705f13893ce88e091d7717	prof	code_3
+Croatia	NOVAMINA Innovative Technology Centre	c9a554ccd155fd8a725c71cb28c322dd	PostDoc	code_2
+Spain	Instituto Navarro de Tecnología e Infraestructuras Agroalimentarias	ca259ff24d01ae7e347e05b74df6239c	PostDoc	code_5
+Norway	MMC Green Technology (Norway)	860e0df11be747302975da6e12f9e715	PhD	code_4
+Colombia	Corporación Tecnológica de Bogotá	ad4b7a7b9415c43e38d0e353b3b3f73b	PhD	code_2
+Netherlands	Bayer (Netherlands)	b4ff07478c41ba1d41f3e91e98ad3132	PostDoc	code_4
+United Arab Emirates	Alhosn University	29eb29c44a0389dbeef38eeead7d7159	PhD	code_5
+Italy	Pontifical University of Saint Thomas Aquinas	515012953c8e801cb85041e8a1f1f296	PostDoc	code_3
+Poland	TDJ (Poland)	c49351f4cbb4dcea3543cd4dd3c51df3	PhD	code_4
+India	Rama Dental College Hospital & Research Centre	3698aa7c74f8af1cd1c0f8c59fa857c2	assistant_prof	code_3
+Germany	University of Applied Sciences FHDW Hannover	90633ae6f6855c72c5d30d838d65ef76	PostDoc	code_2
+Portugal	Instituto Politécnico de Leiria	6b6ca29d6cf995334fc26527ce1ca6c6	PostDoc	code_4
+Argentina	Regen Network (Argentina)	c169e5d816a5fcec8537ab0c72725eda	PhD	code_1
+Spain	i2CAT	73df33b43c98968f4ddf7fd64c4eb555	assistant_prof	code_5
+Norway	Árran Julevsáme Guovdásj Lulesamisk Senter	68b4db489588aec0dd4789caba7bf860	PostDoc	code_4
+Japan	Shiminkatsudou Information Center	479db820ff24093a648b8be5a5df8266	assistant_prof	code_3
+Germany	r2b Energy Consulting (Germany)	4ab8c5d8b8df2bd76af9c80a764fae36	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	Arnolfini	aaba853fccb2195c0b653c2d32b3b654	PostDoc	code_5
+United Kingdom of Great Britain and Northern Ireland	British Editorial Society of Bone & Joint Surgery	e11ff901d9be9eaf3859054e9ef182f2	assistant_prof	code_5
+Canada	Alcatel-Lucent (Canada)	6d06b3484e7ddfb3a445a953e2e948d7	prof	code_1
+Japan	Kanazawa Seiryo University	691276404e82ed2c158d757773aef4fd	PhD	code_3
+India	Defence Materials and Stores Research and Development Establishment	15eaa7ab312130ebe4fca1bb4feb1c74	PostDoc	code_3
+India	University College of Medical Sciences	70414e2891cb5cc145ea2113b686e06b	PostDoc	code_3
+Türkiye	Usak University	0a9e46c7c79fe9bd92cc0289d925631a	PhD	code_5
+Germany	JENAer Meßtechnik (Germany)	1fa3ad5e8a3dd869db6b045b119bdb19	PhD	code_2
+Canada	Canadian Association for Commonwealth Literature and Language Studies	3785d47270f8dbb3ce232b451134d10b	prof	code_1
+Colombia	Jardín Botánico de Bogotá José Celestino Mutis	1ada7a23aed8d4e38d6f53f2fb921763	PostDoc	code_2
+Germany	Institut Raum & Energie (Germany)	c92f9b892a5f0413671f159df5e51f04	prof	code_2
+Czechia	2N Telecommunications (Czechia)	a79942ae1b1259368eb5b847cd5328e4	prof	code_2
+Belgium	Community Research and Development Information Service	5552118b18a133756d041b780cb7dd1b	prof	code_1
+Spain	Tecnitest (Spain)	13bb965ec6ff79c7a5451d78d7dcdacb	PostDoc	code_5
+Ukraine	"National University ""Yuri Kondratyuk Poltava Polytechnic"""	b238799717adc346d5a24e4d1381799e	PostDoc	code_5
+Netherlands	Vector Fabrics (Netherlands)	1622017bac4d6ce5846ff13e7b4c3577	assistant_prof	code_4
+Italy	Art Aia - Creatives / In / Residence	0b2f5403aefa994a3b150164dee5520b	prof	code_3
+Australia	Water Technology (Australia)	22d775f659002a7e445916153b43cbbc	PostDoc	code_1
+Taiwan (Province of China)	Fortune Institute of Technology	f49b25a5d8a26b4793615dec604bb103	PhD	code_5
+Nicaragua	Universidad Metropolitana	603e1670cc5998e01393ff059bc612ce	PostDoc	code_4
+China	MicroPort (China)	2c05bd2b12e29dbfd241ddde0e96e888	assistant_prof	code_1
+India	NonFerrous Materials Technology Development Centre	189ffb3a77853895808c5b23e0127517	PostDoc	code_3
+Saudi Arabia	Al-Ghad International Health Sciences Colleges	2a1a68eb1e1375fae3bf14fc13e19658	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Hospital of St John & St Elizabeth	b47cb1fdbb8df1bec60429d4096c19c0	PostDoc	code_5
+Germany	Moritz Klinik	a808f807b8079dd2383ca287c1acdb68	PhD	code_2
+Czechia	Institute of Technology and Business	a1da20cc7ef84f2a6e0ed25ae0f40b24	prof	code_2
+Netherlands	Bristol-Myers Squibb (Netherlands)	8b26489005a6b3666fdd437ad7dd15a5	prof	code_4
+China	Wuhan Dongxihu District People Hospital	9822a669cbf6842b0cb7d50151aa0fb0	assistant_prof	code_1
+Uganda	Civil Society Budget Advocacy Group	4d77bc09ae1490638d54567f149a356a	PhD	code_5
+Japan	Inouye Eye Hospital	a0ec2ca692a0ff2cac7453f4c0d16023	assistant_prof	code_3
+Greece	Ministry of Health	9cef9d955e249ef25ab72823d3c8b200	PhD	code_2
+Japan	Kao Corporation (Japan)	817da0746ab9bc90637bc82b3f478d68	assistant_prof	code_3
+Republic of Korea	Hyundai Steel (South Korea)	455b88e3a6128161d58f5c009fcc3036	PostDoc	code_4
+Czechia	NDCon (Czechia)	c22d106585085a35e3efa00d0a006326	prof	code_2
+Croatia	Ministry of Health	46a705dc4847a1a5b18550dd22878a54	PhD	code_2
+Lebanon	International Center for Human Sciences	77bf99704faeefd23f4a1669f8a87980	prof	code_3
+Netherlands	Dutch Polymer Institute	bf13b6cf965bf685f81b22ceb71d659b	PostDoc	code_4
+Canada	Great Plains College	be6ab48ab4e8a1c02503d6f7e6a610aa	PhD	code_1
+China	Shenzhen Bao'an District People's Hospital	99680f4edcc09151bdde10954d2782f0	PhD	code_1
+Pakistan	Karachi Medical and Dental College	0f273977e46087b030a71bbf4cf46568	PhD	code_4
+Spain	EuroEspes Biomedical Research Center	2e5d6a14413397fe5aa9c62e840dfbde	assistant_prof	code_5
+United Kingdom of Great Britain and Northern Ireland	University of West London	4dc40bff4f6e1b22bac1a1cc46c3eb87	PostDoc	code_5
+Germany	Deutsche Bundesstiftung Umwelt	6e4d02db805d449829127da3e0af5292	PostDoc	code_2
+Brazil	Sociedade Brasileira de Educação Matemática	e0eec0dea7b1ffcd705e02182733edb3	PhD	code_1
+Republic of Korea	Hyupsung University	6403d5e55547276e56c228574279fded	PhD	code_4
+Japan	Doai Memorial Hospital	6779a7770ca3e21fb84b6359dbf2fb9e	PhD	code_3
+India	Voluntary Health Association Of India	e401f73710ca8aeedebdd37cb954e564	PostDoc	code_3
+Republic of Korea	Earlogic (South Korea)	42c944ee60a2a0e4d184984ca689df39	PhD	code_4
+China	Hospital 463 People's Liberation Army	ac815e382a7ac838107936c1bcf3736a	PostDoc	code_1
+Japan	Utsunomiya Museum of Art	fbcb7bf3ffed63d31496b79fd071b4ef	PostDoc	code_3
+Canada	Arthritis Society	921f19f51bec9f51095656e5e61632cd	PhD	code_1
+Belarus	Yakub Kolas Central Scientific Library	42047688ba2f076ecce05f71df8ba54a	PhD	code_1
+Italy	Azienda Ospedaliera Carlo Poma	4072afd46ced21f319087ec63be1e008	assistant_prof	code_3
+Germany	German Cement Works Association	4957db983c91d90b0db2a650fadeb861	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	Surrey Police	d1c1ff2c7c03a08ac6060cd7e157d727	assistant_prof	code_5
+Israel	Shalem College	63b068f9807b2eec65fba21d2556046b	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Climate Outreach	4a1733f527e930c92a37e1a91b92205c	prof	code_5
+Hungary	Wosinsky Mór County Museum	7f636076c6144e92ed567e7b776ec32f	prof	code_3
+Canada	Walsh Medical Devices (Canada)	e76c74966d31f8a0d9a6eec98988e251	assistant_prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Society for Reproduction and Fertility	a558c8ad8b903de2e6b90c7e087e2dc8	PostDoc	code_5
+Chile	Wikimedia Chile	fb12984a268fddc7f6424b43f74f7381	prof	code_1
+Netherlands	VeiligheidNL	0f480f2c51d01fb45999ab026f7dcd67	prof	code_4
+Canada	Mount Royal University	e3f303453f88a0097399fe0f94cb1b98	PhD	code_1
+Czechia	Vakuum Praha (Czechia)	bbdb218999412f36449150b368745d96	PhD	code_2
+Japan	Hokkai School of Commerce	c97a102c67d50dad5574d5a5bf0e085f	assistant_prof	code_3
+Sri Lanka	Mullaitivu Hospital	e1b4439503dc016dbcc1ce9cf07fc34e	PostDoc	code_5
+Finland	Granlund (Finland)	8221a99e5641cf2a0dfa3ac8746b39f7	prof	code_2
+Germany	Forschungsinstitut für biologischen Landbau	ba9b73b63ccfb5141b1a2c766dd501b8	PhD	code_2
+United Kingdom of Great Britain and Northern Ireland	Whitstable and Tankerton Hospital	f4b32dc7c2d26dcd1f9ba743f99bfcbf	prof	code_5
+Spain	Fundación Séneca - Agencia de Ciencia y Tecnología de la Región de Murcia	5fcaac4b423ce36f51ac00275aa0124c	PhD	code_5
+Brazil	Uma Gota no Oceano	77fb424fd2e2ed7481877d15c6b6b33a	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Stevenage Bioscience Catalyst	8588a46cc9739bbbb307f74d3fbdf9b1	assistant_prof	code_5
+Ireland	KCI (Ireland)	bbcfa59d11fe5634906db111a8944678	assistant_prof	code_3
+France	Physiology of Nutrition and Food Behavior	ae5a5a896355c5d81e26e105b01210fa	PhD	code_2
+United Kingdom of Great Britain and Northern Ireland	Scope	0ccb4ab207582cdc7c45967b74b804ee	PhD	code_5
+China	Ningxia Academy of Agriculture and Forestry Sciences	e4f27d4204a944ec84aab229c7d1bb1d	assistant_prof	code_1
+France	Institut Carnot ARTS	01bceadbd5b42cae0728935bbbe2e943	assistant_prof	code_2
+Australia	Stillbirth Foundation	f4e72fd35c8a406de15fa866c196bb03	PhD	code_1
+Colombia	Parque Explora	19b49974342cc2ef621facf5846d9122	PhD	code_2
+India	Sher-i-Kashmir Institute of Medical Sciences	557cc231f68cac30e7948aee16b582c9	PostDoc	code_3
+Indonesia	Universitas Cokroaminoto Yogyakarta	f2e6de35e12898b2bccc2cd643badcfc	assistant_prof	code_3
+South Africa	Golder Associates (South Africa)	97304d216cab3ed6dbdd57759c970c81	PhD	code_5
+Switzerland	Schweizerische Gesellschaft für Volkskunde	0017db2e04187216674beaa2f5418f7f	assistant_prof	code_5
+China	Rongcheng City People's Hospital	e812325737e201472908ecde7932d387	prof	code_1
+Cambodia	Cambodian University for Specialties	0dbcda0bdbecef06981cad77c72687da	assistant_prof	code_1
+India	PBMA's H.V. Desai Eye Hospital	b1eab3c3f8a1ae7d49067c5f46d4fb25	assistant_prof	code_3
+Germany	B. Braun Stiftung	82bc69187a65437e1b1589a1ba2fbfcc	PhD	code_2
+Slovakia	Betamont (Slovakia)	88ed624fc65f684c457dbd6078af564b	PostDoc	code_5
+China	Zhe jiang Research Institute of Traditional Chinese Medicine (China)	81be47b0e7f437ff08801dddabac67ce	assistant_prof	code_1
+Kenya	Sahelian Solutions Foundation	629002fa71b1334893c80e04063c71da	PhD	code_3
+Canada	Brantford Energy (Canada)	8c41136a5da05cc5b2117b9dac9aec86	assistant_prof	code_1
+Poland	ANGA Mechanical Seals (Poland)	96ed33b7e63932e184462f6dc57940ee	assistant_prof	code_4
+Sweden	Spiber Technologies (Sweden)	935e839cfe2d2f07a6449b6fe7fb9489	PhD	code_5
+Italy	Comitato Termotecnico Italiano Energia e Ambiente	afb7e3187b2182cd142cac9b0afaf8a0	prof	code_3
+South Africa	Western Cape Department of Health	7616bde7305f57a0d1f3c30cc23c9e8b	PhD	code_5
+Colombia	Universidad Cooperativa de Colombia	6b92c31277ee0c66af24677a4db237fb	assistant_prof	code_2
+Canada	Medicine Hat Regional Hospital	a4ee9705534939bb366f606869ccfc62	PostDoc	code_1
+United Kingdom of Great Britain and Northern Ireland	Breast Cancer Now	49ddc548f7e7893494d48c3b82693ceb	PostDoc	code_5
+Italy	Irecoop Emilia-Romagna (Italy)	2bc6d1c6478ca752a5efe28a4f650c5f	prof	code_3
+India	Karnataka Folklore University, Haveri	a48f57f1bf3e4c9e64171b4a25f804fa	PostDoc	code_3
+United Kingdom of Great Britain and Northern Ireland	DiagNodus (United Kingdom)	14167ce3a8dec4b5c50ffc6f7039df69	assistant_prof	code_5
+Italy	Fondazione Crescere Insieme al Sant'Anna	ebf065ae0ad5854183a1d1fec43fae85	PhD	code_3
+Germany	Klinik Bavaria	ec8b64bd293be3cf48758d2e85859746	assistant_prof	code_2
+China	China Textile Academy	0b5fd13457a07f0685496c910b86530d	PhD	code_1
+Canada	Allocadia (Canada)	2e3182f28fedd87d06b21ca3508bb953	PhD	code_1
+Greece	Alexander Fleming Biomedical Sciences Research Center	aef9927610eb1d0f246cf8b568bfcec6	PhD	code_2
+France	Languages and Cultures of Sub-Saharan Africa	75101178b250bbd46d89e6836a8b68f5	PhD	code_2
+Republic of Korea	Korea Atomic Industrial Forum	057b81e33266211e3f2b956566c30651	PostDoc	code_4
+Spain	Complejo Hospitalario Universitario de Albacete	de1f1413ac43f2d65bea296afdb824b9	assistant_prof	code_5
+Italy	Lattanzio Group (Italy)	69b416ff2cb32a24a9974ffad1c2c19e	PostDoc	code_3
+Czechia	Sudop Group (Czechia)	b66d764870b26cf6ca53b5f2202929bb	PhD	code_2
+Netherlands	Damen Shipyards Group (Netherlands)	bb1d26a9058fcaa0fb051eb36d00335b	PhD	code_4
+Germany	Berner & Mattner (Germany)	dc43bc69455416eb5bb55bb682f2938b	PhD	code_2
+Ukraine	Regional Clinical Hospital named after II Mechnikov	1c122508ac9e6eb0db36e8bba6104616	PhD	code_5
+Czechia	Museum of the Bohemian Paradise in Turnov	c3872b3468be92fdd2977ea0aac03ee2	assistant_prof	code_2
+Japan	Kamiichi General Hospital	643574f52950f808199a2801b5ae8920	prof	code_3
+France	Délégation Régionale Est	ca94a6e083f51482a5e96e350200b6ea	prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Northern Powergrid (United Kingdom)	c46afbe08f74f524a8e96878af1b1105	PostDoc	code_5
+Germany	Gene Bridges (Germany)	975e55361fbe3036ce7eae0a1fd2d5bf	prof	code_2
+Germany	German Center for Integration and Migration Research	4324ebf0a58aff19359ab8cf47b7deb4	prof	code_2
+Italy	Giustino Fortunato University	ff81a6389e6f875466094b03f596af0a	prof	code_3
+Germany	German Federal Environment Agency	8ae8060b645a015d0eb16b8131010db6	PhD	code_2
+France	Maison des Sciences de l’Homme et de la Société de Toulouse	5f1f6dfba888c75de10f4d5ad7c42973	prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Oxford Centre for Drug Delivery Devices	ee813cf8be53fd1416ca204c46d452d4	PhD	code_5
+Finland	Lapland University of Applied Sciences	7ba715cf675a1e335ae79c147c976e10	assistant_prof	code_2
+Germany	Sysmex (Germany)	9945a18ea0bb310dc02cee5d53647b38	PostDoc	code_2
+Spain	Pivotal (Spain)	77c9e1f0e58a179f94fcf84dc2f101b8	PhD	code_5
+Germany	Education and Science Workers' Union	c6d8961c369606ada367c07a23afad48	prof	code_2
+Kazakhstan	Institute of Ionosphere	dda71cd7cde241278ae16babc3194a7f	PhD	code_3
+France	European Photonics Industry Consortium	279a9ea23f7d55e577e6ec96bb2d54e0	PostDoc	code_2
+Ghana	Nurses' Training College, Ho	3145c9920ab8da5032f23112fde6dc3a	PhD	code_2
+Germany	Senckenberg Museum für Naturkunde Görlitz	486dab46953bfd53c681bb4732bd4956	PhD	code_2
+United Kingdom of Great Britain and Northern Ireland	Fairfield General Hospital	019fb2958431d7bbdb3a28d4fe72fc8e	PostDoc	code_5
+Austria	Nawi Graz	7ea8cef9d06aedd962151d1788002b8d	PostDoc	code_1
+Canada	Université de Saint-Boniface	af6ca49a6d84227ef71d8199e0cd7a41	assistant_prof	code_1
+Australia	University of Adelaide	017eec2ca4396b5272bad1e0f01e1159	PhD	code_1
+Austria	Austrian Marshall Plan Foundation	a39a748acdddd39d4c85b9adc164743c	PostDoc	code_1
+Slovakia	Siemens (Slovakia)	649afd4a68ba7c6ede1aa6f73722f25e	prof	code_5
+China	China Institute of Geological Environmental Monitoring	946bf5f437cd64c9c63d109e2bbbea05	assistant_prof	code_1
+South Africa	International Geographical Union	77418fc9d81ef5a1e0929321d0e99a0b	PostDoc	code_5
+France	FHU Neurovasc	7a91276e0583aeb0dca9b6a2585c83b3	PostDoc	code_2
+Canada	FPInnovations	6a813b0aad474ff7df036219b04d8c4b	PhD	code_1
+France	Manoir Industries (France)	700ebd072281e9102964383a3a5e84e7	PhD	code_2
+United Kingdom of Great Britain and Northern Ireland	Micropply (United Kingdom)	5d08c7fb4422c91c0a0ca2b0411ea073	PhD	code_5
+China	Municipality of Tai'an	1535090f8a7bd7bf3b4817d024af0c27	PostDoc	code_1
+Taiwan (Province of China)	Richtek Technology (Taiwan)	e2c4a9a341548095a4c79f605246fda1	PostDoc	code_5
+United Kingdom of Great Britain and Northern Ireland	Max Planck-Bristol Centre for Minimal Biology	300088f960da24ece8bdfd6682541a12	prof	code_5
+United Kingdom of Great Britain and Northern Ireland	GreatCell Solar (United Kingdom)	dd492348b2dcf2973017f90b1f22203b	prof	code_5
+Czechia	Dálniční Stavby Praha (Czechia)	4f3c404fe3c62feb6e0ef248769b9378	PostDoc	code_2
+China	Wenzhou Municipal Sci-Tech Bureau	60fe7affe06c0c55287d29fea4189975	PostDoc	code_1
+Germany	Kunstakademie Düsseldorf	9be405e103733d9ceae7d2a73b04cb45	assistant_prof	code_2
+Türkiye	Turkish Aerospace Industries (Turkey)	75fd183be894c44a84770fb2a0fbc57a	assistant_prof	code_5
+Republic of Korea	Doowon Technical University College	dca7a24d3af310113d4dd70176ac4bdc	assistant_prof	code_4
+Armenia	Fondation Université Française en Arménie	e4b3ed59707e5b2291e8e6caeeef7262	prof	code_1
+Ukraine	Institute of Artificial Intelligence Problems	acfe7fd6f38bb3138936c2b817520884	prof	code_5
+South Africa	Life Groenkloof Hospital	0f63f4bd3cd2572e273997ea964cb258	assistant_prof	code_5
+Russian Federation	Moscow Humanitarian-Technical Academy	cb554b12ea5b44c99eb7b51ae02767a0	PhD	code_4
+Germany	Curt Engelhorn Centre Archaeometry	cf2d10f98d6d2b7dd3a317721e6bd217	PostDoc	code_2
+India	Gateway Group (India)	8b4fc3a9715500c9d935519d3270ff09	assistant_prof	code_3
+Australia	Dermatology Institute of Victoria	2233865934bf9e7ed5f77eab9a357c8c	PhD	code_1
+United Kingdom of Great Britain and Northern Ireland	Hourglass Group (United Kingdom)	f6272fccc7b3a9e6bc5c7ee805fc634d	prof	code_5
+Germany	University of Applied Sciences Würzburg-Schweinfurt	0d801b15ff1736e6ac64e568fbfd64b7	assistant_prof	code_2
+Norway	Universitetsforlaget (Norway)	6bfe3e00e2cb72f95ef0aaff9436d30c	PostDoc	code_4
+Brazil	Bevi Plastic (Brazil)	42c18c383a2631cd1bf61f3c4245029d	assistant_prof	code_1
+China	Fujian Tobacco Industry Limited Liability Company (China)	e805bf3f8b860b4964b667d322a8bf1a	assistant_prof	code_1
+France	Oberthur Technologies (France)	a525261bfe8c25acd02bbc586edafb63	PostDoc	code_2
+Canada	Kronos (Canada)	11b96a8ce432b294d2408b6eb03a417d	assistant_prof	code_1
+Germany	Franziskus-Krankenhaus Berlin	bd218627cead628ed29459a51e03296e	assistant_prof	code_2
+Belgium	Signosis	2710ae9bb4a7ea6f02c1675ffedf13ab	PhD	code_1
+Russian Federation	Russian Foundation for Basic Research	cfaf82d9365ed49f4c856aa8fc46961c	assistant_prof	code_4
+South Africa	Damelin	076aaff04c6a44d7b0f9cdfd178e4326	PostDoc	code_5
+Slovenia	Harpha Sea (Slovenia)	1e87bbf0c9330b86fabbac586c141acb	prof	code_5
+Spain	Mobility and Logistics Cluster MLC ITS Euskadi	e87134baef08776d51d88dc6df0e1e9b	PostDoc	code_5
+Japan	National Institute of Technology, Oita College	8b97a2f94308bf72a87171174bcf89bc	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	National Literacy Trust	33729b12098ed811238355e7a0a2155b	assistant_prof	code_5
+Canada	Misericordia Community Hospital	d80ab0ce49597f9d0c0e245bb2191279	PhD	code_1
+Morocco	Centre Jacques Berque pour le Développement des Sciences Humaines et Sociales	bb6ea5c5da4214aa10205e657e66f411	PhD	code_4
+Colombia	Technological University of Choco	dee2757486af6cc4107da1ab0756550d	prof	code_2
+Canada	Statistics Canada	b24cbd520f23d305a447920fe74b20e5	PostDoc	code_1
+France	Hôpital de Vaugirard-Gabriel Pallez	2f96ecebe25b8a75bc2cc25828fa1544	PhD	code_2
+Republic of Korea	Hansol Chemical (South Korea)	521b243fe461aa3531873c1f2373c665	prof	code_4
+Jordan	Ministry of Health	7037039c44167b4290437aa6d8eee77a	PostDoc	code_3
+Romania	Nicolae Bălcescu Land Forces Academy	d4de53c547527ead6caa3d4925ee76c5	assistant_prof	code_4
+India	Digital Empowerment Foundation	7e03413bc723b46f81eb20d944e8fab3	PostDoc	code_3
+Brazil	Cardiovascular Research Center	870a702fd4312c7e8a4063004786d389	prof	code_1
+France	Genetics and Improvement of Fruit and Vegetables	e50981cd0bcc923702440ccd312f4ac0	prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Poplar Housing and Regeneration Community Association	e65837c8050ccee936584ccefac6b06d	PostDoc	code_5
+Belgium	Clinique Saint Jean	e995cefc4278b11b82ebdd8bd503a992	prof	code_1
+Sweden	Instant Advice (Sweden)	dc76caf8fcc914cc92cf5db5b4e261bd	prof	code_5
+Poland	Dolnośląska Wyższa Szkoła Przedsiębiorczości i Techniki w Polkowicach	da44aa456b0079c26a2b96f16ef4f1d6	assistant_prof	code_4
+Japan	Gifu Prefectural Gifu Kita Senior High School	6b20c4a35b3a311c9bf9279420a6aab3	assistant_prof	code_3
+France	Équipe Monde Arabe Méditerranée	d19ce64d3e64e399195a8799f1b9c65e	prof	code_2
+Italy	Ospedale Cisanello	5b5069fbb150dafb60d59a19be4e48e0	PhD	code_3
+Japan	Institute of Applied Energy	963aa1fe3c5882dab06626dc4e0156a9	assistant_prof	code_3
+France	Eurocontrol	e7a106e44887e70db0d31e7a954d24cb	prof	code_2
+Germany	IOT Labs	2eb9fc9045b2245dfbf498b587e20c08	PhD	code_2
+China	Everbright International (China)	f2745147139105c4e5f3989034ec6c13	PostDoc	code_1
+France	Centre for Research in Epidemiology and Population Health	04ee9d5c13a26a78f4f789548df2b82c	assistant_prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Eisai (United Kingdom)	19743ebf51d56d38e3e1a722551b0ab6	prof	code_5
+Kenya	Lukenya University	9807f146ed3413ee4cac1380a6349e75	PhD	code_3
+Nepal	Rural Self-Reliance Development Centre	8dc910652f2cc6c684dc58c92759d7a6	PostDoc	code_4
+Norway	Avinet (Norway)	d2e502d55357fa6cf359b2cb9dfa73f4	PostDoc	code_4
+Argentina	Academia Nacional de la Historia de la República Argentina	6ded525352074a2b86b517de537851b1	PostDoc	code_1
+Switzerland	Medela (Switzerland)	654e77e18dee970701bd553261dd28e3	prof	code_5
+Switzerland	Krisenintervention Schweiz	1bd61dac90a755812c0087f16402aa76	PostDoc	code_5
+Japan	Sumitomo Rubber Industries (Japan)	997433fe1a0eab247d2e9877098bed52	assistant_prof	code_3
+Canada	Invenia (Canada)	da88e36e7cbc39f71670da5753f965a7	prof	code_1
+China	Henan University of Technology	547360726ecea8fe5b3e0fa86781e426	PhD	code_1
+Egypt	Grand Egyptian Museum	1a8224bf1e748ec937601a530bf9cc5b	prof	code_2
+New Zealand	Institute of Environmental Science and Research	89ae2fd91dd83642efbd643a87dbe70c	assistant_prof	code_4
+Finland	Victoriastiftelsen	10bf450877b643d58204a3d46a036252	assistant_prof	code_2
+Russian Federation	Moscow Institute of Entrepreneurship and Law	7a59f51006f10fb18211c6fb0cd58b91	PostDoc	code_4
+Czechia	Benet Gold (Czechia)	16c7df15259d0d279b24118eb00a8c81	PhD	code_2
+Belgium	European Writers' Council	4c62834a7bc9bd658ed518b52d6eeb7e	assistant_prof	code_1
+Sweden	Renapharma (Sweden)	8cb284d1c50748a975f9d392254ac858	PostDoc	code_5
+Germany	Bundesinstitut für Bau-, Stadt- und Raumforschung	3c66a9ed412caa2edb818952027e8a08	prof	code_2
+Canada	Bentley (Canada)	61cb757c7993e99ef9f014916c2bba68	prof	code_1
+Japan	Nissan (Japan)	265148cce81e062fc5b3f817aecf4712	PhD	code_3
+Brazil	Instituto Polis	08b5d2f273affc6a69c8c58ca492bbb4	assistant_prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Germinal (United Kingdom)	6297ab21acb9db3ad997ae7e74ae3e0d	prof	code_5
+China	People’s Hospital of Rizhao	a9946b3feb7d823af17da8da548497dc	PostDoc	code_1
+China	Yunnan Water Conservancy and Hydropower Survey and Design Institute	506a2b36a559d12b1744a02e95159ab4	assistant_prof	code_1
+France	Magellium (France)	cfc8c4a56e1f937503970d6d3233e994	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	Agricultural Development Advisory Service (United Kingdom)	8bf09dc44558fe18b29ec3f4c85d1eea	PhD	code_5
+Switzerland	Swiss Society of Engineers and Architects	2c53311f98f74d774213e2de3841e271	assistant_prof	code_5
+France	French Clinical Research Infrastructure Network	4d7d84f86f996d3d9df58cc137b9939d	assistant_prof	code_2
+Brazil	Associação Brasileira para a Proteção dos Alimentos	0631dcbfe9b99dabd0a8ae1c43b12cf5	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Sage Gateshead	7a4dcc166c6badffeec04d7bfa2c23db	assistant_prof	code_5
+Russian Federation	Institute of Legal Economics	7db7b9748d7fb4990d227853cffaead3	PhD	code_4
+Spain	Catalonian Research and Innovation Centre	828345c2139f21f21358496335083f9f	assistant_prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Cavendish Hospital	ba4f1c017c68f12620cbef7302c6226c	assistant_prof	code_5
+Bulgaria	Bratya Daskalovi Municipality	3986818fe409e06346c0898174d77dd1	PostDoc	code_1
+United Kingdom of Great Britain and Northern Ireland	The Western Front Association	030bc778411d262577e6358f360a59d0	prof	code_5
+France	Institut de Mathématique et de Modélisation de Montpellier	b270f88d796b358e887e55e652b73ddb	PhD	code_2
+Sweden	NeoZeo (Sweden)	22379ab74085b600bc1225e75bac2799	PhD	code_5
+Switzerland	Helsana Group (Switzerland)	2d482d0cb8bd33dd2c488a5a79f3a87f	PhD	code_5
+China	Jordan Valley Semiconductors (China)	293811d59fb189a80e6da6f63cb77887	PostDoc	code_1
+Iran (Islamic Republic of)	Sabzevar University of Medical Sciences	7824b28f7c6e623bceb9253918365e09	prof	code_3
+India	Guru Jambheshwar University of Science and Technology	07826213dc3e0cf1c321b2cd688971ad	PhD	code_3
+Canada	BC Cancer Agency	372ac4c3a049272e03e229c69c55e0c8	assistant_prof	code_1
+Netherlands	European Centre for Nature Conservation	3e1e033ce7710c64bf06a95aa337ef3d	PostDoc	code_4
+Viet Nam	Tra Vinh University	0fa3d07b9fca9d58e68cfecea8a8c94f	assistant_prof	code_5
+Russian Federation	Institute for High Energy Physics	e4a8e382e6bb56eea4c35bf28c02077a	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Flexiant (United Kingdom)	86d3292951abab4a914ef4523130d027	assistant_prof	code_5
+Australia	Wishlist	0f6789484357156f59cec2e88bd20234	PhD	code_1
+Colombia	Military University Nueva Granada	d23e95999757e227af07f14bdd89ccf5	prof	code_2
+Canada	Immersion (Canada)	03df444abc5b449e28ce38f859f87b73	PostDoc	code_1
+Austria	Austrian Society for Environment and Technology	f45519f65bf14bd071b4ee8cdc55a725	PhD	code_1
+Germany	BioConsult SH (Germany)	e36b3ef450df30d5186f15c8c40d6120	PhD	code_2
+United Kingdom of Great Britain and Northern Ireland	NHS Blood and Transplant	975a980320a8c4deb867ea076e070b16	PostDoc	code_5
+Sweden	Swedish Mercantile Marine Foundation	5ef649678a8d8a5d229f0f10f2c62a91	prof	code_5
+New Zealand	AFT Pharmaceuticals (New Zealand)	42dd9aee81bcf1d7a3f1703800dec599	PhD	code_4
+Germany	ORYX (Germany)	8a0f2eb49fed3081386e35c6a3ee3abc	PhD	code_2
+France	Sciences Cognitives et Sciences Affectives	e6f999ddf4ee98d81ed8007494e7d1a5	PostDoc	code_2
+Belgium	ISC Intelligence in Science	dfeeabe293251c03f8e42c9b0a935b12	PostDoc	code_1
+Republic of Korea	Hallym University of Graduate Studies	c8e6d67cc724a1f869f1c7884e004ea8	PostDoc	code_4
+Poland	Free and Open Source Software Foundation	2b1b73a430c05f0efffd2e61fa4708fb	assistant_prof	code_4
+Netherlands	Wittenborg University	84e1b157945f1e48e1f2777d2788f3c4	prof	code_4
+South Africa	South African Democratic Teachers Union	980d812099f4e1d4fe067b041617169a	PostDoc	code_5
+India	Social Service Sericulture Project Trust	13f32daacdf594a7383ebdff32c1ab57	assistant_prof	code_3
+India	Woxsen School of Business	8d27e9d71f08437074f26ff165523fdc	prof	code_3
+China	China Academy of Urban Planning and Design	c05c64feea8c5036a71266d5dbdc4dea	PostDoc	code_1
+China	Institute of Intelligent Machines	42959e77c06e98a44d7a31150628e483	PostDoc	code_1
+France	Prince Medical (France)	bc190f21e2f876f3161438656194b8a5	PostDoc	code_2
+Czechia	Česká Hutnická Společnost	fcecf3e8a18dd6f68cb82600078e5bb8	assistant_prof	code_2
+Peru	Universidad de Huánuco	a83ea435dd3c050612cdf9602753146e	assistant_prof	code_4
+Japan	Hokuyukai Neurology Hospital	e3bd26934df1725e7f293d5c5377cca8	PostDoc	code_3
+India	HCG Cancer Centre	aa9c27b97732dc31139d79bdae057da2	PhD	code_3
+United Kingdom of Great Britain and Northern Ireland	Paint Research Association	7f93f849ec8e65b8e922e091735a97d1	assistant_prof	code_5
+Denmark	Kennedy Center	0faa68a4b9e8ca481a815094abaaa930	PhD	code_2
+France	Institut Parisien de Chimie Moléculaire	5d0018154d27834a70245421b9dbcfa8	prof	code_2
+Norway	Norwegian Kennel Club	1e04ea5e73f85b611158ab0caeb0f5ef	PostDoc	code_4
+China	Yunnan Academy of Forestry	8833d5f2f5fc24efa48b0a37bdb2ffea	assistant_prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Perth & Kinross Association of Voluntary Service	4410e9e23cbedd779b68b8c0310c2238	PhD	code_5
+Colombia	Fundación Tecnológica Antonio de Arévalo	6c71295f38681618589520089005b27b	PostDoc	code_2
+Indonesia	University of Darussalam Gontor	4cde49e8ae85adfcda55d73eb70c44f2	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	St. Oswald's Hospital	9584540b7a0931ac7e2c0c3855d0d3dc	assistant_prof	code_5
+Netherlands	Novay	ea0b6e94a75c8484e207c82ef509cc17	prof	code_4
+Switzerland	Mandat International	ad18c6d0670182df2f0cceb9df8dfc9e	PostDoc	code_5
+Italy	ProControl (Italy)	675dc36e8c55ddecb2d3215ebd0e17f4	PhD	code_3
+Germany	Alacris (Germany)	64e1c82f72034bc651ad58e477f71e06	PhD	code_2
+France	Aurea Agrosciences (France)	eca2d3502161636e1f4064e5e5f4411c	prof	code_2
+Czechia	Ekoport	f5dd37ba31de0adef3b465a5ad43dd30	prof	code_2
+Republic of Korea	Women in Nuclear Korea	39ebb1e8bf10f8b62620bd172aaa64b2	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Trelleborg (United Kingdom)	805522b1c717f9500ca3a0466e40f7fd	assistant_prof	code_5
+Canada	CRC Robotics	9a12f4b89f7632b68fdfd46ecf0a3fc7	PostDoc	code_1
+Russian Federation	Mordovia State Pedagogical Institute named after ME Evseveva	71860e6bd1ad77f297cb77cb9851a672	assistant_prof	code_4
+Japan	Foundation Nerve Institute	304b7cf963ce013389f0316e94b24c7f	PostDoc	code_3
+Portugal	Escola Superior de Enfermagem de Lisboa	7b41f70ec84d3e7f14c7ac780119574d	PhD	code_4
+India	Indian Institute of Technology Delhi	dcf0933827b19c80c64a6cd489f2464a	prof	code_3
+Germany	Centre for European Economic Research	fecafcf6cc1d37c9b6cc56dfc25f4d32	PostDoc	code_2
+Australia	Agilent Technologies (Australia)	2243348d7ea7b7da1e6157392f020108	PhD	code_1
+France	Institut du Fer à Moulin	f91782b7a4c3ab85d4bc2c7c1f9df27c	prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Barnet and Chase Farm NHS Hospitals Trust	fb46f4447097c33a81c5a46ed4bff365	assistant_prof	code_5
+Germany	Klinik für Neuropädiatrie und Muskelerkrankungen	1f833cc1e90f001ed7d050baef3485c4	PhD	code_2
+Republic of Korea	Iljin Radiation Engineering (South Korea)	c56b17a6c17cb51974c2529b590ccdd9	PhD	code_4
+United Kingdom of Great Britain and Northern Ireland	City of York Council	92df6a0e9f02d7535ce466c7b2e72dc3	PhD	code_5
+China	Jiangxi Provincial Cancer Hospital	7d456c46c3e56e2b8d73d3b3e489b870	PhD	code_1
+Finland	Boehringer Ingelheim (Finland)	2fc4adb9ecf7f578a6909473dad31bc7	PostDoc	code_2
+Portugal	Ferespe (Portugal)	b3c48994369eddbf85a6c3dc6d737bcf	prof	code_4
+Canada	Rouillard (Canada)	71030378bfff3daf017ba0111fec02cd	PostDoc	code_1
+Germany	Fahrenheit (Germany)	a7c2bcf577866f890122a9f093393bd3	PhD	code_2
+Japan	Niigata Agricultural Research Institute	f335e9222dfb5ff67009c296f122359a	assistant_prof	code_3
+Russian Federation	Institute of History, Archaeology and Ethnography of the Peoples of Far-East	bda19af225ab35063d1f04bb75876560	assistant_prof	code_4
+China	Shanghai Institute of Optics and Fine Mechanics	3a06ec3aefbc1c6d3d4aa11d47a59e62	assistant_prof	code_1
+Canada	Élisabeth Bruyère Hospital	8e845dfcea813842dd23854327adfd64	assistant_prof	code_1
+Taiwan (Province of China)	National Defense Medical Center	95b26f48ccca7021f53094a6d0877b81	prof	code_5
+Spain	Fundación Valenciaport	55da62b7f9817ffb49815f7a44ee1317	PhD	code_5
+Poland	Sefako (Poland)	a54c9c88e54b49f1d12a72b0b085db05	assistant_prof	code_4
+Chile	Institute for Diagnostic Imaging and Research of the Skin and Soft Tissues	92ac5671dee867776597efd20d927468	PostDoc	code_1
+United Kingdom of Great Britain and Northern Ireland	Royal Cornwall Hospital	6993b10c5acacaafb5a851cf7de2f9f6	assistant_prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Farm Africa	8fdc6ddc7d36ddee7381356aec91748e	PostDoc	code_5
+Czechia	Statek Horní Dvorce (Czechia)	c0d41e72e6422c2cee4109efff8ff008	assistant_prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Link2Energy (United Kingdom)	38db9169b1ff20bc5b85127ba2c622c0	PostDoc	code_5
+India	Gujarat University	e3e4477f905c19b67373dfb82346e2dc	assistant_prof	code_3
+Canada	Trinity College	182d077101e85dad36148704da6ce817	PostDoc	code_1
+Japan	Asahikawa, Hokkaido Nishi High School	5d1bc78daa6d2d55ff327e3791a6e2bc	PhD	code_3
+Germany	Sana Klinikum	1b47f96d8875177d542560c71404dd37	prof	code_2
+Netherlands	USE2ACES (Netherlands)	d42d786af59b75643b9a631ef22074db	prof	code_4
+France	Délégation Ile-de-France Ouest et Nord	18d99dfb5cbe98ff47e6bf69444709c6	prof	code_2
+Sweden	Guideline Geo (Sweden)	d00fd63c5abd8cdf333e2e1dda60361e	assistant_prof	code_5
+Brazil	Caixa Cultural	eb750ef67c56afa572cb3bb23c4e9792	PhD	code_1
+United Kingdom of Great Britain and Northern Ireland	East Berkshire College	210e8d004e6b02ff492c3d2d9eff0600	prof	code_5
+Thailand	Saengtham College	ac9766b32441fb6747178a35e7a7608f	PhD	code_5
+Poland	University of Computer Sciences and Skills	1b4835386273fb2bae1d7bfb06dd88fd	prof	code_4
+Hungary	Baptist Theological Academy	82b443ac87151d966f6a6fe47817622d	PostDoc	code_3
+Germany	Centre for Contemporary History	18c64291c70dcb269452555f1ca75368	prof	code_2
+Bahrain	Delmon University for Science & Technology	8fe41c4c00e5244d5f67736561493b41	PhD	code_1
+Poland	Lodz University of Technology	e80d4c312991e6fe5da6559de01e05fe	PostDoc	code_4
+Paraguay	Instituto Privado de Hematología e Investigación Clínica	7e6e89bbb4bec992935ec52130776b2d	assistant_prof	code_4
+Mongolia	Mongolian National University of Education	d4c826c5d29521d50a03d76d7c4b864a	prof	code_4
+Romania	Universitatea Avram Iancu	ad3be298c8374ff0125fba7d1683ee2d	PhD	code_4
+Japan	Soft99 (Japan)	cf46dccb6e6bc7f9d99e4151f38c2506	PhD	code_3
+China	WCW Technology (China)	74e19621028e2fe98a23c485bc5696d0	PostDoc	code_1
+South Africa	Somerset Hospital	629eea5959402f0602df4a8a8e2e2612	assistant_prof	code_5
+Australia	Department of Communities and Justice	da26292a7ae239d1f5c22c84321af131	assistant_prof	code_1
+Pakistan	Preston University	d591023972b8bfbcddda1a5d79038c2c	PhD	code_4
+South Africa	South African Council for Planners	e2543ba1402d604679ffd0d3890eb028	assistant_prof	code_5
+Mexico	Universidad Marista	365becfe2ba6d3aac5bebbd98f581fa1	assistant_prof	code_3
+Greece	Satways (Greece)	e5f2a81d7cfc97670903d59a0e4ab6ae	assistant_prof	code_2
+Qatar	Supreme Council Of Health	992ebdf7f96a31662533db246178bc05	PostDoc	code_4
+Germany	ICLEI - Local Governments for Sustainability	e27426b286b21ed85852c18d2e647588	PhD	code_2
+China	Nuctech (China)	e982d1e3f2881d0603467a7bfabf27a2	PostDoc	code_1
+Germany	SRH Hochschule der Populären Künste	340ca7a763de845ea36337c5c11872cf	PhD	code_2
+Germany	Stiftung Deutsche Depressionshilfe	dcc770cb5fa1632f0e48efc44da19152	assistant_prof	code_2
+Czechia	Panasonic (Czechia)	8efdcdb06642b3b47a61ed95cd4ba6d2	PostDoc	code_2
+Spain	Cidete (Spain)	c3a781118518d55cad114b9e609d2702	PostDoc	code_5
+United Kingdom of Great Britain and Northern Ireland	Advanced Lead Acid Battery Consortium	2eaff0358cd7f9f815e16f9a45fd2ced	prof	code_5
+Germany	BTK University of Arts & Design	487912fa904c9d7b9008a425cb84aa60	PostDoc	code_2
+China	Hong Kong Export Credit Insurance Corporation	254dbdd84abf1a0c7a1be7e047d79a96	prof	code_1
+Switzerland	Institut Jaques-Dalcroze	92b8354c336f8c346d1fe2489de4ba7a	PostDoc	code_5
+China	Tianjin University	1556ff14e7cc827c0310dd6365b2ef2d	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	JRI Orthopaedics (United Kingdom)	142c7f9f4e26c263271864070ca805d4	assistant_prof	code_5
+Russian Federation	Russian State Archive of Scientific and Technical Documentation	a9e5351030d9d2297bde2c765dbf98f3	assistant_prof	code_4
+Canada	Canadian Mennonite University	da676c628498a17b5bee70bc2f048dea	assistant_prof	code_1
+Belgium	InnovaWood	84b19070e516a1deb4771de428b62cda	prof	code_1
+China	Tianjin Academy for Intelligent Recognition Technologies	9fde1b25e45bb4a62364e71135b69d57	PostDoc	code_1
+Belgium	Centre Belge d'Etude de la Corrosion	e4b873798cd73cb89e37d64b3ab9479b	PhD	code_1
+Spain	BioCruces Health research Institute	bd4897e8b1296e076beb4494ce978521	prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Advanced Propulsion Centre	72f8ba37a610910d8685963e9824be13	assistant_prof	code_5
+China	Changsha Normal University	9b8fef6461f835154090de374bf0d479	PhD	code_1
+Italy	INFN Sezione di Perugia	13dcd12effb49da726c6b51282332ad1	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Fisheries Society of the British Isles	a9761aa3ce298bc34090dcedd758e79b	PhD	code_5
+France	Centre d'Etudes et de Recherches Appliquées à la Gestion	c407d0942773f41609e8e56eeeac7437	PostDoc	code_2
+Switzerland	Sevika Medical (Switzerland)	83d957f4fd7cc8d810eb8ccf640cfcdf	PhD	code_5
+Canada	Cégep de la Gaspésie et des Îles	2d84cdb4419171d26ee3dc7799ed94ad	PhD	code_1
+Brazil	Mwa Automação (Brazil)	fea1e790e82d7851f34114b5a18e1c47	PhD	code_1
+Armenia	Armenian State Pedagogical University after Khachatur Abovian	4ef9d20e102371d89417076feab7bbf4	PostDoc	code_1
+India	Global Innovation and Technology Alliance	43cd762a9c24374f0f9c96e55bb74f81	prof	code_3
+Burkina Faso	AFRICSanté	fc880d81f179d2022e4c576284bdf7bd	PhD	code_1
+Sweden	Husqvarna (Sweden)	c1076932846cf238039b9e1073e7c711	PostDoc	code_5
+Japan	Japan Tobacco (Japan)	5f0610925a3363e66e6ce211e1b95709	assistant_prof	code_3
+Norway	Planktonic (Norway)	e4e0b53cc080cb81b6e62e3240f47bff	PhD	code_4
+Switzerland	Ria & Arthur Dietschweiler Stiftung	abff969507f5521a5b6e458419c072d3	assistant_prof	code_5
+Türkiye	İlkogen (Turkey)	c3da61f7134abd539138f3d1d9750989	assistant_prof	code_5
+Luxembourg	Agence eSanté	736fa503b481849289d907d6290843a5	prof	code_3
+Brazil	Sociedade Latino Americana de Biomateriais e Órgãos Artificiais	d1a8bd641914cb0814f1063dcb594b36	prof	code_1
+China	Bühler (China)	a1378f325c9a277e5b71897782c124cf	PhD	code_1
+Australia	Centre for Clinical Research in Neuropsychiatry	38db521d3595ec9921b6f9728163d798	prof	code_1
+South Africa	Department of Arts and Culture	dbb3dbe652c12c43c746076bf86df4b3	prof	code_5
+Indonesia	Malikussaleh University	cd10f5672ac3717caad9025f1c9b241b	prof	code_3
+Kenya	Jaramogi Oginga Odinga University of Science and Technology	bda235d8c26ab0bffec0f20c2042b4c7	prof	code_3
+Spain	Institución Milá y Fontanals	4076e82f8b4a05d1c311cd0d54a1b44f	assistant_prof	code_5
+France	Illinois Tool Works (France)	fc49a525ecfd742f0ef4b040c6ff92b5	prof	code_2
+Canada	Dignitas International	ea31cea27814fb0482136b884a0b11f7	PhD	code_1
+Japan	Fuji Oil (Japan)	cc92d65380e486f492622c74791baa5a	prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Nexor (United Kingdom)	6f05f8632966764fb2abdf8f6c3f197b	PhD	code_5
+Mozambique	National Directorate of Geology	86258916111841a743ee9c76179e010b	assistant_prof	code_4
+Panama	Gamboa Laboratories	819f20143bd206dffc47c9241dc25dfd	prof	code_4
+Bangladesh	Ministry of Health and Family Welfare	03f72915cb4be477ffca5a7c5408bb28	assistant_prof	code_1
+France	Owens Corning (France)	33ae148d264cacb785c183b3408857cc	assistant_prof	code_2
+Austria	Complexity Science Hub Vienna	97ac373a16d369bbfc53d6a78bef360f	prof	code_1
+India	Dr Vijay Kumar Foundation	259e70b1f07ad4aab8d80afe2c917841	PhD	code_3
+Sweden	Stena (Sweden)	77387bf4f504bf12164eedaa6ba4d697	prof	code_5
+China	SinoCDN (China)	5ea53583c546b336a1a4dc3b140aa522	PostDoc	code_1
+Jordan	Amman Arab University	5aa8f0159f28251ecbd1e5b355e777fb	PhD	code_3
+Australia	Royal North Shore Hospital	b22439e5225e0f749a76afcec0aefc19	prof	code_1
+Armenia	Ministry of Defence of Armenia	57b262fa1d62c95bbfc84157a963c17b	PhD	code_1
+Germany	Max Planck Institute for Molecular Genetics	21a95e53e761abf1c81eb303c9412de6	assistant_prof	code_2
+Republic of North Macedonia	International Association for the Exchange of Students for Technical Experience	f80467b0efac273846e655c148a3012e	PostDoc	code_4
+Philippines	University of Santo Tomas Hospital	f6485622bc0205e0d36c78958724a658	assistant_prof	code_4
+China	Guangdong Machinery Research Institute	14f443020eabbb5369105ca564b93ec1	assistant_prof	code_1
+France	Société du Canal de Provence	6375f52e94f4b834004d956ef9e8e049	assistant_prof	code_2
+Sweden	H&M Foundation	77baa5adfbdb86639b76ba4cb158bbfb	PostDoc	code_5
+Germany	Navigant (Germany)	ef8662d3e3ffea266b2a7415fc5ca251	PostDoc	code_2
+Canada	Saskatoon Medical Imaging	37287f0616c66de20bd495f6193124c9	PhD	code_1
+Spain	Fundació ACE	d1c722f2f856d4da03c78a7d34a1175f	prof	code_5
+Kenya	National Museums of Kenya	c506ae822e04a7adb22ef70aac221f4a	assistant_prof	code_3
+Greece	Municipal Enterprise for Social Development Trikalon	c5dc6889c72c8365135d594eface5ade	prof	code_2
+China	Guangzhou Women and Children Medical Center	7989bde8445743bc8225fbf8648e111f	prof	code_1
+India	Central Institute of Post-Harvest Engineering and Technology	7ceb692901f7ea5d522b31b679c63f62	PostDoc	code_3
+Germany	KOB (Germany)	a87965ad4c732a7a81bfb73a6ef72053	prof	code_2
+Uganda	Ministry of Education, Science, Technology and Sports	425f5a0ed858eda8e021c577aa4b7b59	PostDoc	code_5
+India	Valagro (India)	1c5ca35d59b70838632f37eee1e4b966	PostDoc	code_3
+Brazil	Associação Nacional de Transportes Públicos	3b0c0b9e856828241b797110b884b48d	PostDoc	code_1
+China	Young Entrepreneurs Development Council	7d8452601ce8e326b936ffd37142ef96	PostDoc	code_1
+Hungary	Research Institute for Fisheries and Aquaculture	5c20bd46f70109345cca0ee9730e1d6a	PhD	code_3
+United Kingdom of Great Britain and Northern Ireland	Newbattle Abbey College	551f9a33bad71085b20d0fa7aa3e8cdb	PhD	code_5
+Australia	South Metropolitan Technical and Further Education	841dfde5d287326c256b73c47fc824fa	PhD	code_1
+Australia	Melbourne Genomics Health Alliance	4496b4e61dbb4392b14aff42112360c9	prof	code_1
+Canada	Lu’ma Native Housing Society	f1e1550628f6ad0215a51839d98fdb35	PhD	code_1
+United Kingdom of Great Britain and Northern Ireland	British Olympic Association	f06be037364d49888c573e133c0c0dc0	assistant_prof	code_5
+Italy	Conservatorio di Musica Giuseppe Verdi	c8a7ff199e524fe9568442a3022c41a3	PhD	code_3
+Japan	Kyoto Sosei University	ce7754ba7e419d5cf49a4e922367e420	assistant_prof	code_3
+Germany	Giesecke and Devrient (Germany)	a512a7cc644bfc3afb5c67299b965786	prof	code_2
+Germany	Collaborating Centre on Sustainable Consumption and Production	df3c338fd97269e904d6139f4f51e1c1	PhD	code_2
+Canada	Canadian Political Science Association	20494538776a9888e2450170252c1610	assistant_prof	code_1
+France	Groupe SEB	dba1712eb91fd7941d0e4996b8fc21ff	assistant_prof	code_2
+Indonesia	Universitas Timbul Nusantara	10daf5aac6353a153bdfa74b9b618e0d	PostDoc	code_3
+Guadeloupe	Centre Hospitalier Universitaire Pointe-à-Pitre	803541f3f335266c930ed0e3255ff5fd	prof	code_2
+Sweden	Sahlgrenska University Hospital	fbdc2ca07c40e5dfa3cfded3253a766b	prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Scottish Confederation of University and Research Libraries	9911b151f9d25577cd07bfd58f079e03	PhD	code_5
+Germany	University of Konstanz	d79dbe785c146f1c2282a070c572c197	PhD	code_2
+Israel	Jerusalem Institute for Israel Studies	c67c946d5373ee84d40f332cfa01df15	assistant_prof	code_3
+Japan	Otsu Red Cross Hospital	0999d06a6eb805c2fc4274755a735e6f	prof	code_3
+Qatar	Occidental Petroleum (Qatar)	59b66b08b764f768d370a51fafead6c5	PhD	code_4
+France	Albert-Trillat Center	35829d55a7a185ba2be96974efe838ce	prof	code_2
+France	Savoirs et Pratiques du Moyen Âge au XIXe siècle	c8fea9ee520d3eeffa3269278f50608d	PostDoc	code_2
+Brazil	CBPak (Brazil)	8493a341f6629e0ea87fb138fe141a91	prof	code_1
+Belgium	EASN Technology Innovation Services BVBA	420ea263a52da6667421feae8a1ee97c	prof	code_1
+Netherlands	De Bascule	83acf5888fac168ce4f484e3a5d30efc	assistant_prof	code_4
+Japan	Kishiwada City Hospital	d7a417ff611e26881e3cdc7390d3e69e	assistant_prof	code_3
+Germany	Swarco (Germany)	0cac98112fefb8e9075d636d54768180	assistant_prof	code_2
+State of Palestine	University of Palestine	cea1fbfaa9d69a010669d18e7921ecbc	assistant_prof	code_5
+Switzerland	Musik Akademie Basel	3c92d0c80999ad0c0a80a9139800bbfa	PhD	code_5
+Norway	Trollhetta (Norway)	483a1f08c0c9046b817df3c73d13faa7	assistant_prof	code_4
+Egypt	Spiretronic (Egypt)	15bf0f76699a31b8000992930d20768e	prof	code_2
+Czechia	Envirmine (Czechia)	293503c776e16229369cd0bd977c12d5	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	Lewisham Southwark College	6a213b891e2bf9b93c27cd8c2e070806	prof	code_5
+Germany	Oeko Institut	2bec34546b1cd8df22695d937672f1b6	assistant_prof	code_2
+Germany	Institut für Industrielle Pharmazie	af74aab880f250da4aea62d290bdb9cc	PostDoc	code_2
+Japan	Kanazawa University Hospital	cecabc8f6f6376e723bd4404179d70b1	prof	code_3
+Canada	Public Safety Canada	d092a4db1d605dc68a496ce9f5bab0d4	assistant_prof	code_1
+Japan	Tokyo Metropolitan Children's Medical Center	42250a906f674ce0d34e97e588cfa054	PhD	code_3
+United Kingdom of Great Britain and Northern Ireland	Wolfson Foundation	75c87e5d1b4c9a67547bd0147697e6e4	PhD	code_5
+India	Central Forensic Science Laboratory	fc5bd02afc0525392f7f62d0499788da	PhD	code_3
+China	Shanghai Blood Center	83b4dc06724802e8921cc80316f6eb1c	prof	code_1
+India	Indira Gandhi Mirpur University	4aecfd7417f37fc41941e6bccdca9bc3	PostDoc	code_3
+Canada	Canadian Economics Association	c3b7bd616b1ebd21337f91d3fd4173b1	PhD	code_1
+China	Guangzhou Metro Group (China)	2436705ecc7871f1d423344c73816127	PostDoc	code_1
+Japan	Japan Society of Ultrasonics in Medicine	880add8d0b4f447058ac8a51969b8772	prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Community Connect Foundation	3ca5d1467489de443c6df8aefec18b4e	assistant_prof	code_5
+United Kingdom of Great Britain and Northern Ireland	West Cheshire College	38802861a4902fcc506b5b524fd7da0e	PhD	code_5
+Austria	PROJEKTkompetenz	9d446a9fa778ff363442c29634e824d6	prof	code_1
+United Kingdom of Great Britain and Northern Ireland	Highbury Hospital	a22994cdd5ad248a9ed686fe20cbaa91	prof	code_5
+Spain	Complejo Hospitalario de Navarra	622c71f72bf872213bbcb9b2e4c6da59	PhD	code_5
+Germany	Bayerische Landesanstalt für Weinbau und Gartenbau	305ce24a6f70878aa65166ab01e94325	assistant_prof	code_2
+France	Groupe Hospitalier de la Région de Mulhouse et Sud Alsace	a2fdc286962e92af81af98ea7414bb01	prof	code_2
+United Kingdom of Great Britain and Northern Ireland	IBI Group (United Kingdom)	689d687ee0d96dc60bc21031d3a8b39e	prof	code_5
+Uganda	Epicentre Uganda	997b4477d762abad36d6b68a8cff61b2	PhD	code_5
+Mexico	Universidad Tamaulipeca	c00afb765354f1db2475f2420a17b043	assistant_prof	code_3
+Thailand	Thailand Board of Investment	c0f050cc4341bbde2ecb2337a0c4ff77	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Royal College of Veterinary Surgeons	45fc52ed0119a53d09b3a2a82832cbcb	prof	code_5
+Germany	Malteser Zentrale	39eb346d3c506308e5a3616870e4f633	PhD	code_2
+Sweden	Innovatum (Sweden)	e45c773d153b72582222cde9df65f2c8	assistant_prof	code_5
+Norway	Fram Flora (Norway)	c599f12d913f92a42e40dce4d86171c6	prof	code_4
+Philippines	Visayas State University	fff1547bfb3e471a424c57471c7957b1	PhD	code_4
+United Kingdom of Great Britain and Northern Ireland	Heartlands Hospital	4d4295db45a097dbdce2b7433c7930d0	PostDoc	code_5
+Slovakia	Animal Production Research Centre	428b1df92f75d9f29c3ab3d9d9add015	assistant_prof	code_5
+Germany	Pfizer (Germany)	86e62b9465e3cdc4ffb4b229134d8e07	assistant_prof	code_2
+France	Centre d'Etudes Prospectives et d'Informations Internationales	5c6974019de3fa98a4469d80eee4ded0	assistant_prof	code_2
+Serbia	Bitgear (Serbia)	eb75ede19f7cc90f07564f3e69cbf59c	PhD	code_4
+Canada	College of General and Professional Education	d9a5f5a3cf9d411c91e6de169ba361f9	PhD	code_1
+Germany	Bruker (Germany)	ac9baee814e8e09b0a8769a590947665	PhD	code_2
+China	Agricultural Genomics Institute at Shenzhen	2b3fd2c3bb6069b7d9d254f27a3ebbd5	PostDoc	code_1
+India	Ashoka University	b28a81f4d6aaf93f6838c20d119de79f	prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Nokia (United Kingdom)	cc22f1a1f0c7bdbd7a05201a96255262	PhD	code_5
+Czechia	Pure Bohemia (Czechia)	9e273b0c3b81de2fba03848402f1891c	PostDoc	code_2
+Canada	HEC Montréal	3c4e0db98aa45445ea1cdafb20174f53	prof	code_1
+Bangladesh	Rajshahi Medical College	d36d995e99740874558e805750309657	PostDoc	code_1
+Norway	Intrapoint (Norway)	f673102382ea6c4dfcfa20a817b79100	prof	code_4
+Switzerland	Stiftung Lindenhof Bern	8135d17ff55af8738aaa09a16d29e151	PhD	code_5
+Poland	Spyra Primo (Poland)	a7cc32da68c230bd4a040c7ecd2ff703	assistant_prof	code_4
+China	China Enterprise Confederation	9face5e42b76958fdba8661def300e21	PhD	code_1
+Canada	Gwich'in Council International	52b0fb982277b8e243e657266b63e75e	PostDoc	code_1
+China	Chizhou University	0fbf6ceccb66c1b6a4220ec22eeef41f	assistant_prof	code_1
+Czechia	Blata (Czechia)	b4aa30c441712bd037ef952867f81e42	PostDoc	code_2
+Guinea	Centre Universitaire de Labé	227b78b27796b83cb09e6e115febd235	prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Commonwealth Secretariat	24289312b1b8b88efd8028c57f6446c4	PostDoc	code_5
+India	Shell (India)	d5c8d484186e4add3fee608eb8c500be	PhD	code_3
+China	Heilongjiang University of Technology	42d7ee1be8cd71fc48e3965cd9ffb833	PhD	code_1
+Australia	University of Southern Queensland	646ba3e4677519db6be495252fe765e3	PhD	code_1
+China	Shenyang Academy of Environmental Sciences (China)	6f10a8d8d219e091732188e9fbc4a25f	PhD	code_1
+Poland	Galwes (Poland)	cee30a8b3c0057f3d425678d86efa95a	PhD	code_4
+Brazil	Rio Branco Institute	ea546632c090d3451a3fa0a666e7ea03	PhD	code_1
+Japan	Chugoku Rosai Hospital	4a08a76bac162dc4d7ca2500115b8a23	prof	code_3
+Argentina	Instituto de Botanica Darwinion	eb83c67dab5fece238e92dcd9bd12a38	PhD	code_1
+Canada	Portage College	14933375a4812472ac394db09d511d33	PhD	code_1
+Sweden	QuizRR (Sweden)	89690fd99456a57693edc30bdade9545	assistant_prof	code_5
+Australia	Australian Recreational Fishing Foundation	9020551d0946455427796d9d257d592a	PostDoc	code_1
+France	Leo Pharma (France)	e5a615cc84e128954e05dbcea6a90258	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	BIPVco (United Kingdom)	ca5476fd91d262f261ae8613fb84d7ba	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Aeronautical and General Instruments	3ab61d98c7ba31805fde4fea2c49072c	prof	code_5
+Algeria	École Nationale de Management et de l'Administration de la Santé	9d6f1d259dbbbc27aed58ac09017c1a2	assistant_prof	code_1
+Republic of Korea	Hanmin University	a44f2cab8f5b01b55c07ce33cc3998be	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Cancer Research UK Clinical Trials Unit	43caf6eb9ef04b388e11027e0b87d80f	prof	code_5
+France	Conseil Départemental des Vosges	71326db551409f82d138c82625ca4df7	prof	code_2
+France	Observatoire Français de la Sclérose en Plaques	ec9790de09c503fc4ab6d98da564af8f	PostDoc	code_2
+Canada	Centre de Recherche Industrielle du Québec	ca73295c3667290a623556f7c037ed69	prof	code_1
+Canada	Olivieri Foods	b8f9045bec616279050c4e0d5471531e	PostDoc	code_1
+Belgium	Physiol (Belgium)	37e33c8719f8c14913284a75343ee2aa	PhD	code_1
+Morocco	École Supérieure d'Informatique Appliquée à la Gestion	d248477de2940f71d91f7d4eb6133da0	PostDoc	code_4
+Czechia	Al Invest (Czechia)	9b958dae57a0359f5352dea8f7557ae6	PostDoc	code_2
+Slovakia	Ultrazvuk (Slovakia)	d10af49fdc9abef9568e9f98cf9761ec	prof	code_5
+Italy	University of Gastronomic Sciences	d00b95de940595cabb194a7c9e9955c5	assistant_prof	code_3
+India	Gurukul Kangri Vishwavidyalaya	2bed07b829f2ce61668b9900dd65ebdf	PostDoc	code_3
+Spain	Lear (Spain)	30eecfc9cf3e25ce087f4345593d15e7	PostDoc	code_5
+France	French Infrastructure for Integrated Structural Biology	54f0b9a276299b6980bb6cce035f21a9	PhD	code_2
+Hungary	Franz Liszt Academy of Music	aa06923a0c4ca975b9a15d98e53545fd	assistant_prof	code_3
+Japan	Tokiwa University	934193a370ff78d7a7ffef25fc25f449	prof	code_3
+Canada	Institute of Gender and Health	cf1581e139f557331d9f00867cec3242	PhD	code_1
+Canada	McCord Museum	f49e1045be4f8546cc836e066a20d999	prof	code_1
+Mexico	Benito Juárez Autonomous University of Oaxaca	8f7c80112b3c3dac29290b0e4383a00a	PhD	code_3
+Canada	Deer Lodge Centre	57b3f3ce95a3fa3e662b53e3bbc093fa	prof	code_1
+Canada	Fife House	9cf3e7949950f4051950d2cc13562be9	prof	code_1
+Spain	Consorcio Regional de Transportes de Madrid	99b212503263a4ec792eb271fee19ef4	PhD	code_5
+Slovakia	Nemocnica Malacky	b56e866a262651c5cdc722d6eb684dfc	assistant_prof	code_5
+France	Cancéropôle Nord-Ouest	1a9d367c8a82f1c0804b805e7651a563	PostDoc	code_2
+China	LipidALL Technologies (China)	8bae3abb02e45f341f0eff3c3d2fecc4	assistant_prof	code_1
+Switzerland	Kantonsspital Frauenfeld	7c525f827a5cbfdf1fbc56072a8b2408	PhD	code_5
+Japan	Kanagawa Prefectural Hospital Organization	99be146279cd8be74828d14a524f7fad	PostDoc	code_3
+United Kingdom of Great Britain and Northern Ireland	Elmleigh Hospital	503482943aa99f5dee9442857b87e6d2	PostDoc	code_5
+Spain	Instituto de Biología Funcional y Genómica	7aad4d3d7def24a8bc0a256a6132cad2	assistant_prof	code_5
+Mexico	University of Monterrey	7af01ef2e953b755dfa6e274b779ff95	assistant_prof	code_3
+Mexico	El Colegio de Sonora	dd74014ab64c39b1cf8cb6e837d48ef1	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Imperial Innovations (United Kingdom)	8a474c7e21f090909de8072ca6c52608	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Environmental Information Data Centre	d8d2d1ede4791a0ef4832e665b22966b	assistant_prof	code_5
+Denmark	Center for Clinical & Basic Research	deae5ff04d94645c9ff3d67e53b64da7	PostDoc	code_2
+United Kingdom of Great Britain and Northern Ireland	Bard (United Kingdom)	15b53c2a8072ef6ab3b7d0f1b037e4a5	prof	code_5
+United Kingdom of Great Britain and Northern Ireland	Refugee Action	1b8c8edea89ca0d68cbd21e58749c26c	prof	code_5
+Ukraine	Ukrainian State University of Railway Transport	daf72d25e97b7ea0a01bc419433b530c	prof	code_5
+Colombia	Colombian Geological Survey	dc5945c19b7c2b042fe5a43136b83ec7	assistant_prof	code_2
+United Arab Emirates	Emirates Metrology Institute	419603bd82d7ce78485235aeec49bd0f	PhD	code_5
+Lebanon	Modern University for Business and Science	4b5aabe8784573bdee9f45f415b9e8de	PostDoc	code_3
+Belgium	Applica Sprl	d1d926d736682e83c3e46caa89764eac	PhD	code_1
+Republic of Korea	Labor Welfare Corporation	dcada54e0acd7fd0ae57e2f01c7bfaa1	prof	code_4
+India	Spectrum Healthcare	214e845ced6b840deb3ea0369badefe5	PhD	code_3
+China	Renmin University of China	5c91b3edb81b800f1c12829c7c63f065	assistant_prof	code_1
+India	Apollo KH Hospital	e9beecd14c34f9292a7bdf7875582362	PostDoc	code_3
+China	Xi'an Shiyou University	ae224be3271bcfb5e23d2c541609c51e	assistant_prof	code_1
+Sweden	Absolicon Solar Collector (Sweden)	568984864e76ec8b58f891ef6828f2e0	PhD	code_5
+Germany	Berlin Central and Regional Library	4bf48feed40d0d0739e309e7dcc0cd6d	prof	code_2
+India	K.S. Rangasamy College of Technology	b5f655906a46671967e2562ced6c97e9	assistant_prof	code_3
+Canada	Quadrise Canada Corporation (Canada)	8c7a2f42d820a853fefceac6ce47024d	prof	code_1
+Iran (Islamic Republic of)	Islamic Azad University, Mashhad	249c81f97f8fae4c99bbea27e42c8583	prof	code_3
+Poland	Warszawska Szkoła Zarządzania - Szkoła Wyższa	6e28595b0da8e47e1117e9d87f8ccec2	PostDoc	code_4
+United Kingdom of Great Britain and Northern Ireland	Miba (United Kingdom)	672f1740f6e4219639ff5b2e600aef9d	assistant_prof	code_5
+Norway	Maritime Suppliers (Norway)	594a318e6be1ec9ab23af190bd50dab8	PhD	code_4
+China	North China Research Institute of Electro-optics	9afe55e99d7afe37da01d56ee143e154	prof	code_1
+Japan	Epson Information Technology College	6d92c4fb3c8c7d1fe55b2cb0e81b60f4	PostDoc	code_3
+Taiwan (Province of China)	Paochien Hospital	4e1c96b11f245d9fd015b50933b28fb7	PostDoc	code_5
+Japan	Iwate Agricultural Junior College	81472a0e26c5b17708829d5da7202b96	prof	code_3
+Ecuador	Universidad Estatal de Milagro	50ed64c1b4f04911f1eda56aa986053e	PostDoc	code_2
+Netherlands	MSD (Netherlands)	b9a409551c23d824e9bed449e066aee0	prof	code_4
+Morocco	Institut des Hautes Études de Management	ce83f4bc9b4d89c398e2b322da575ee2	assistant_prof	code_4
+United Kingdom of Great Britain and Northern Ireland	Department of Finance	4f15200bc42e5ba711058b61ea2a700b	prof	code_5
+Russian Federation	Kabardino-Balkarian Scientific Center	3e7d85fefe95c4d8eeaeed904468c410	PhD	code_4
+Canada	Canadian Association of University Teachers	eeeafc39f5508156ff16dcc1dd4b4f0c	prof	code_1
+Norway	Norsk Skogmuseum	0ceaa47933010eeef5d808ca1648fcbd	PhD	code_4
+Algeria	National School of Built and Ground Works Engineering	7ba9873488f67170e1c9b04a86ff8551	assistant_prof	code_1
+France	Medicrea (France)	8f8194e0a0d4ec9ad8fee26d398a6961	PostDoc	code_2
+China	Shanghai Xiandai Architectural Design	8172496084254374fdf08361ee018f6e	assistant_prof	code_1
+Poland	Research and Development Centre for Wood-Based Panels	1ce720954c5bf6d613c90ac44f64bb02	PhD	code_4
+Serbia	Institute of Virology, Vaccines and Sera “Torlak”	509a4515956aabce6a426bcf3388ba67	assistant_prof	code_4
+Poland	MPTS (Poland)	84ee1a02f9c2c94719f3a2fd8d725ec5	assistant_prof	code_4
+Germany	Hochschule für bildende Künste	6e77d6ee2bd97b6aa27b3b1b0689a4b3	PostDoc	code_2
+India	Biocon (India)	339bc9b9d049b606caa881cf4eb9741d	PostDoc	code_3
+Argentina	Universidad Isalud	cb4d8e0522afefc6ff95a3fbfcc59ed4	PostDoc	code_1
+Czechia	Mendel University in Brno	b105f93066f9a20578caa8e1752c7fc6	prof	code_2
+Germany	ForWind Zentrum für Windenergieforschung	e2ad3561f585ba3cf54fa42bdb9922b5	PhD	code_2
+China	Changchun Discovery Sciences (China)	0de591274b6fc975567297ca7c321af3	assistant_prof	code_1
+Switzerland	Aebli-Näf-Stiftung	8581b6172b9c3c78675b71db2560b128	PhD	code_5
+Egypt	Electronics Research Institute	69117eecd4522df4d1325cf0315e382e	prof	code_2
+Republic of Korea	Kyungdong University	806fca2fa7243174a2a7b93ad8190e59	PostDoc	code_4
+Ireland	Nokia (Ireland)	6704e87a09876f671ef4899a62bd18c9	PhD	code_3
+India	Indian Institute of Technology Gandhinagar	3b5d783845ed83be34b0a9895088bb1d	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Hamamatsu Photonics (United Kingdom)	7c4f7f250a8750dad66c10665393e2fe	prof	code_5
+United Republic of Tanzania	Tanzania Women Research Foundation	e876237be6a04833f21fe4e79a2cf3c3	assistant_prof	code_5
+India	Voluntary Health Association Of India	c65753125f8d07492342de36ea088956	prof	code_3
+Finland	Meaning Processing (Finland)	df067f181545423ea2bb4036df3a4b02	assistant_prof	code_2
+Norway	Joma International (Norway)	316f88b76c8e0a033badeab66c8100f4	prof	code_4
+United Kingdom of Great Britain and Northern Ireland	John Innes Foundation	226c17204526e9e86a1f685f659f4274	assistant_prof	code_5
+Italy	United Nations System Staff College	c934c3d49c60598b05950c34246f8aa2	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Severn Glocon Group (United Kingdom)	527f187ce7913a0be7fd07dba18a4421	PostDoc	code_5
+India	Balaji Dental & Craniofacial Hospital	9cd467b299e068e2e2674b9201a823ce	assistant_prof	code_3
+Albania	University of Elbasan	51e7a4a865bbc0561bdae20d2d7c3ddc	assistant_prof	code_1
+Austria	Austrian Institute of Historical Research	bcb42a2fe1e15f96d1f1ffea6cda5edc	assistant_prof	code_1
+China	Axiom (China)	691771124cb1bda0da2d778731da7ad0	PhD	code_1
+Netherlands	Stichting Hout Research (Netherlands)	f53faba0f5f22ea93d1419cc77b5b0c3	assistant_prof	code_4
+Sweden	Katam (Sweden)	470cb61f06145656c623ac640404c5a0	assistant_prof	code_5
+Italy	Ospedale San Donato	99cd8df26f73f75ef4f156b03d6b4886	assistant_prof	code_3
+Japan	JA Shizuoka Koseiren ENSHU hospital	a69c4d83a5242495fb9e5088b512ff04	assistant_prof	code_3
+Norway	Capwell (Norway)	a898d356baef29eb25ae8316a85ddb61	PhD	code_4
+Italy	MBN Nanomaterialia (Italy)	0a7a77a3d7176eb951d05a03e70a95eb	assistant_prof	code_3
+United Kingdom of Great Britain and Northern Ireland	Alzheimer’s Research UK	c5d6c092acd9f837ac6b67fe1d0c2d36	PhD	code_5
+Netherlands	Nuclear Research and Consultancy Group	53319edbb8f3b09b7391323520083b64	prof	code_4
+Germany	Nephrologisches Zentrum Goettingen	422e4a08029333fa1c961c9889b233e4	assistant_prof	code_2
+Switzerland	European Organization for Nuclear Research	dd297f2d2f4c8e19ef049e23ed9e3bee	prof	code_5
+India	Niloufer Hospital	4dfa042d61a8bb596506abe0e0ce2417	assistant_prof	code_3
+Cambodia	Cambodian Institute for Cooperation and Peace	d2505975ccaf97f8f1111717f6b56acc	PhD	code_1
+Czechia	Brantner Walter (Czechia)	8d8d7cf16a72fbd145c5be7447fa6ea8	PhD	code_2
+Switzerland	Bank for International Settlements	cc2cc3314685d128e8e9a7a73ec65270	PhD	code_5
+Japan	Accretech (Japan)	6acd9b66ddd2b4c750c4d7446afe5cde	PostDoc	code_3
+Australia	Kimberley Aboriginal Medical Services	9d920e2b044e7b77cd849cd00fdb2896	PostDoc	code_1
+Taiwan (Province of China)	ON Semiconductor (Taiwan)	9fc19629bac8ce87ad175d3cc5a5d815	assistant_prof	code_5
+Poland	Ekopoz (Poland)	b34d170fa425337e2d34a2e883805112	PostDoc	code_4
+France	Anthogyr (France)	0d6afd004d3160dcdffa600fa8826987	prof	code_2
+Italy	Istituto Nazionale Genetica Molecolare	04d0c477e2d807de3bd451eb5f54485b	assistant_prof	code_3
+Norway	Norwegian Institute of Local History	019013b23787b0f1902075ab014cb486	PhD	code_4
+Ghana	Ghana Institute of Management and Public Administration	0dc31a78a2f3b4cd2917e7e8cae60b13	assistant_prof	code_2
+Italy	Tele-Rilevamento Europa (Italy)	c432db7f5557a2a3372cf6b3c4429541	assistant_prof	code_3
+Czechia	Termosondy Kladno (Czechia)	4d7756d685369bffed5d058922d8b9aa	assistant_prof	code_2
+United Kingdom of Great Britain and Northern Ireland	Henry Moore Foundation	82949e2af4b8d88d6451840157f8d014	PhD	code_5
+United Kingdom of Great Britain and Northern Ireland	Victoria Community Hospital	66bd3a029bc756dcfca5e60d2e9702cc	assistant_prof	code_5
+Russian Federation	Research Institute of Semiconductor Devices	0fbd112be3eb1eab88113004152d0654	PostDoc	code_4
+Germany	Universitäts Hautklinik Kiel	cb64a7c24593b4889d0046a28553e944	PostDoc	code_2
+Czechia	Biodegradace (Czechia)	0cb1832fbfbc09cb3b9718e4b36015f6	prof	code_2
+Germany	Schmid (Germany)	360f77110690b0ff85a3a8f241ac4f03	PostDoc	code_2
+Greece	Aratos Technologies (Greece)	9feefb865c6303e34ea5d4d4643f543d	prof	code_2
+Netherlands	SolMateS (Netherlands)	613afb062259296c9712925f07567694	assistant_prof	code_4
+Spain	Institut Català de Traumatologia i Medicina de l'Esport	1d6aa3663fcdd9b6635f3feb434bd1eb	assistant_prof	code_5
+Peru	Universidad Nacional de Jaén	c3891615c3a2cc7364995b487280844f	PhD	code_4
+United Kingdom of Great Britain and Northern Ireland	Gwynedd Council	b786c6583604b0182145b669b267c9bf	prof	code_5
+China	BGI Genomics	7667c1ace37cd9066093061d07e838af	assistant_prof	code_1
+Russian Federation	Irkutsk State Linguistic University	4648408772e7a49c8f1dc7747d3f8d42	PhD	code_4
+Spain	Hospital Infantil La Paz	5a59cf2da38e2bb55325da6c1b205156	PostDoc	code_5
+United Arab Emirates	EBTIC	1b7a64430530b907efa4d24a97d3a708	assistant_prof	code_5
+Switzerland	European Academy of Allergy and Clinical Immunology	015a40d874413072d4ade6518446cd51	prof	code_5
+Japan	Shiga University	7ad084df7cb122321544141660bd6c1a	PhD	code_3
+Nepal	Child Watabaran Center	3173cb88df1d5188ccddd64ce4b7e10c	assistant_prof	code_4
+Iran (Islamic Republic of)	Dezful University of Medical Sciences	64da00325c8714441edb71d144011dff	prof	code_3
+Poland	Center for Theoretical Physics	f9af3c9a6790c1eb92fd9d2a96c91d27	prof	code_4
+United Republic of Tanzania	Public Health Laboratory Ivo de Carneri	c0b3444ac0cb321a69170392e91c0c8b	PostDoc	code_5
+China	Gansu Great Wall Electrical and Electronics Engineering Research Institute	2442e8fb9c92759ad9f308fc9d95b187	PhD	code_1
+Finland	Kanta-Hämeen Keskussairaala	35f1e5fa3a6d7646d281a9f69ea40a55	assistant_prof	code_2
+Australia	Central Queensland University	5715bcb8b7e375cd57bcc2dbc47bf127	assistant_prof	code_1
+Netherlands	Islamic University of Rotterdam	3c1c371fb1e6999f39af16d83a7c6e13	prof	code_4
+Germany	GSI Helmholtz Centre for Heavy Ion Research	fa1d6064ce1890dd40c3e3c70d0cb703	PostDoc	code_2
+Belgium	KU Leuven	f4baa5e19b3ee3d61d69825a01231ef8	assistant_prof	code_1
+India	Tata Trusts	772d302b2b435c507aa30f7a23a8e79f	PostDoc	code_3
+Czechia	K Profi (Czechia)	f2005dacd19e3c0bede77539f44c98ee	PostDoc	code_2
+France	Laboratoires d'Anjou (France)	e1215e398ed807a1d21954d34ce6be00	PhD	code_2
+China	Jiangning District of Nanjing Chinese Medicine Hospital	81e92fe8ca8d3ddd5bca361c9329a232	assistant_prof	code_1
+Japan	Shizuoka University of Welfare	eb482aa8f26e73ff5d4a006ba3f36e45	PostDoc	code_3
+Germany	European X-Ray Free-Electron Laser	3dbee325c93ba2dff79b824c2c7c74de	prof	code_2
+China	Qihe People's Hospital	3daceac67cf09cca5155cd3efd70288a	assistant_prof	code_1
+Germany	United Technologies (Germany)	d478eb653e5798231fb211666dcc1541	prof	code_2
+Russian Federation	Izhevsk State Agricultural Academy	5c4d7bc17917017d370f4090f0830d11	PostDoc	code_4
+Russian Federation	Russian State University of Cinematography named after SA Gerasimov	0cf52fbd935ae3760bc1218ac488f59a	PhD	code_4
+United Kingdom of Great Britain and Northern Ireland	Leeds Beckett University	0d359f00332bf1811cedbd5ed84c66f0	prof	code_5
+France	School of Business and Management	65e946a2b0e74d81c5f0b50fdce9e07e	prof	code_2
+Germany	Certmedica (Germany)	b65be83b40fb68df686dfcecad684de3	assistant_prof	code_2
+Italy	Ospedale Santa Maria Annunziata	cf20db65bf1716b2deec448a72ce2068	PostDoc	code_3
+Czechia	Turnex (Czechia)	fafdce2ae968178f123644904a71e468	PostDoc	code_2
+Brazil	Centro Universitário da Fundação Educacional Guaxupé	357024650859365844ceae3f91c9ef34	assistant_prof	code_1
+Nigeria	Caleb University	3cec75587352e6563b11b12dc5c7e4ba	PostDoc	code_4
+China	Institute of Automation	1a091a8074aa8a313b4846a7d25c27a6	PostDoc	code_1
+Canada	Bow Valley College	ac9440896e2608004873d31f0c06b7e4	prof	code_1
+Belgium	Physiol (Belgium)	4f803a62163ddda0c2e8cca3ebd1785c	PhD	code_1
+Canada	British American Tobacco (Canada)	96c09c17031c4a55729f7219ac9cfcbe	PostDoc	code_1
+Germany	Walter Eucken Institut	73cb2e70e953e70808bae5794b793172	PostDoc	code_2
+Slovakia	Ocná klinika	50a0c9e035c400b9807ae3134598f02b	prof	code_5
+India	National Power Training Institute	feecfb06f57fd4fde372f6549be75ebd	PhD	code_3
+Germany	Lesswire (Germany)	d0f946ecba1e6468cfffad3759af9ebf	assistant_prof	code_2
+Republic of Korea	Seoul Viosys (South Korea)	6ba3b0412130ffb9e430993faf9ca30f	prof	code_4
+China	Shanghai Institute of Technical Physics	5978dcfb4dfa2c1a6bafde4532a814e5	PhD	code_1
+Japan	National Research Institute for Earth Science and Disaster Prevention	f3ff2a731e94be7f12681188731adff8	PhD	code_3
+Romania	Median Research Centre	953925d53b509f16b3acd91c9e567f00	assistant_prof	code_4
+Japan	Kobayashi Foundation for Cancer Research	200c6a999651fe89ef779e0910f618ea	assistant_prof	code_3
+Czechia	Nemocnice Šternberk	4e56b6aa59889b1cb8b5b5acfc083970	prof	code_2
+Brazil	Federal Institute of Pernambuco	a67ce1699a10c2edc564e732032cafc9	prof	code_1
+China	Nanjing Institute of Environmental Sciences	8ab57d84cde9fa313150dcc3ee1061f5	assistant_prof	code_1
+Germany	Institut Dr Schrader Creachem	5d7295960cdf2a19e71bf9f4aa5d3be1	assistant_prof	code_2
+China	Chongqing Municipal Health and Family Planning Commission	a6c00259b55d9051df3d40a10285aa37	PhD	code_1
+South Africa	Central University of Technology	3d213a66ddb47031a4778bd5653585ad	assistant_prof	code_5
+India	P. D. Hinduja Hospital and Medical Research Centre	8ff80a2671cabadba9fa6024768a4c6e	PhD	code_3
+Thailand	Phuket Rajabhat University	f33380235980a3a5149ccff526dc29c3	PostDoc	code_5
+Japan	Mishima Kaiun Memorial Foundation	4235f12bbab43d8c12ec897b57865572	assistant_prof	code_3
+Brazil	Federal Center for Technological Education Celso Suckow da Fonseca	16084e47b33126e0d8f7b682bf572ce6	PhD	code_1
+France	Laboratory for Materials and Construction Works Durability	9e417edeecd07a490e148087db9e1dcd	PostDoc	code_2
+Indonesia	Jakarta State Polytechnic	1d222dc0fdd9b70469a1b16c9b0c9983	assistant_prof	code_3
