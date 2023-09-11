@@ -1,27 +1,22 @@
 args <- commandArgs(TRUE)
 print(paste0("file to be used: ", args[1]))
 print("Loading libraries")
-## libraries
+# load libraries -----
 my_packages <- c("vroom", "shiny", "shinydashboard", "DT",
                  "purrr",
                  "dplyr", "stringr", "ggplot2", "plotly")
 suppressPackageStartupMessages(
     invisible(lapply(my_packages, library, character.only = TRUE)))
-#library(sf)
-#library(spData)
 print("--- Libraries are loaded ---")
-# read the dataset
+
+# read the dataset  -----
 main_dataset <- vroom(args[1], show_col_types = FALSE)
-
-
 print("Dataset was imported")
 #print(head(main_dataset))
 
-
+# theme for the plots -----
 PhD_theme <-
     list(
-        #scale_fill_manual(values = wes_cols),
-        #scale_color_manual(values = wes_cols),
         theme_bw() +
             theme(
                 panel.border = element_blank(),
@@ -41,6 +36,7 @@ PhD_theme <-
             )
     )
 
+# checking how many countries exit to plot per plot -----
 print("Calculate how many countries per plot")
 num_groups <- main_dataset$country %>% unique() %>% length() %/%20
 remai <- main_dataset$country %>% unique() %>% length() %%20
@@ -71,6 +67,7 @@ list_plots <- unique(main_dataset$country_table) %>%
     ) %>%
     purrr::map(~ggplotly(p=.x))
 
+# UI etc -----
 plotUI <- function(id) {
     ns <- NS(id)
 
@@ -132,9 +129,9 @@ print("Preparing Shiny Dashboard: Server")
 server <- function(input, output, session) {
     # end the session when browser is closed
     # will be removed if it is on server
-    session$onSessionEnded(function() {
-        stopApp()
-    })
+    #session$onSessionEnded(function() {
+     #   stopApp()
+    #})
 
     output$plotUI <- renderUI({
         ns <- session$ns
@@ -160,5 +157,7 @@ server <- function(input, output, session) {
 }
 
 print("Deploying Dashboard")
-shinyApp(ui, server, options = list(launch.browser = TRUE))
+shinyApp(ui, server,
+         options = list('shiny.port'=80, shiny.host='0.0.0.0')
+         )
 print("Finished.")

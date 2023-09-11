@@ -12,9 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(shiny)
 library(shinydashboard)
+
 library(DT)
 library(dplyr)
+library(stringr)
+
+
 library(ggplot2)
+library(plotly)
+
+library(sf)
+library(spData)
 ```
 ### theme
 ```{r}
@@ -23,23 +31,23 @@ wes_cols <- c(wesanderson::wes_palettes$Rushmore[2:3],
               wesanderson::wes_palettes$BottleRocket1[1])
 PhD_theme <-
   list(
-    scale_fill_manual(values = wes_cols),
-    scale_color_manual(values = wes_cols),
+    #scale_fill_manual(values = wes_cols),
+    #scale_color_manual(values = wes_cols),
     theme_bw() +
       theme(
         panel.border = element_blank(),
         strip.background = element_blank(),
-        strip.text = element_text(size = 20, colour = "black"),
+        strip.text = element_text(size = 12, colour = "black"),
         axis.line = element_line(),
-        panel.grid.major = element_line(size = 0.2),
-        panel.grid.minor = element_line(size = 0.1),
-        text = element_text(size = 20),
+        panel.grid.major = element_line(linewidth = 0.2),
+        panel.grid.minor = element_line(linewidth = 0.1),
+        text = element_text(size = 12),
         axis.title.x = element_text(margin = margin(t = 10, r = 10, b = 10, l = 10),
                                     colour = "black"),
         axis.title.y = element_text(margin = margin(t = 10, r = 10, b = 10, l = 10),
                                     colour = "black"),
-        axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 20),
-        axis.text.y = element_text(size = 20, colour = "black"),
+        axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 12),
+        axis.text.y = element_text(size = 12, colour = "black"),
         plot.title = element_text(hjust = 0.5, colour = "black")
       )
   )
@@ -47,29 +55,29 @@ PhD_theme <-
 
 ## make some data
 ```{r}
-imported_data <- dplyr::starwars %>% select(id_h = name, country = homeworld, 
-                              institution = species, position = eye_color)
-imported_data %>% 
-    ggplot(aes(country, fill = position), position = "dodge")+
-    geom_bar() +
-    coord_flip() +
-    scale_fill_manual(values = viridis::cividis(n =  15)) +
-    scale_color_manual(values = viridis::cividis(n =  15))+
-    theme_bw() +
     theme(strip.background = element_blank(),
           strip.text = element_text(size = 20, colour = "black"),
           panel.grid.major = element_line(size = 0.4),
           axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1, size = 12),
           axis.text.y = element_text(size = 10, colour = "black"),)
 
-number_of_people <- 100
+number_of_people <- 1000
 
 atom_id <- ids::random_id(number_of_people)
 group <-  c("PhD", "PostDoc", "assistant_prof", "prof")
 n_group <- sample(group, size = number_of_people, replace = TRUE)
 
-imported_data_inst <- fs::dir_ls( recurse = TRUE, 
-                                  path = file.path("inst_lists"))[1:4] %>% 
+files_per_country <- fs::dir_ls( recurse = TRUE, 
+                                  path = file.path("inst_lists")) 
+
+countries <- files_per_country %>% 
+  basename %>% 
+  stringr::str_remove_all("Institutes_|.txt") %>% 
+  tibble::enframe(value = "country", name = "country_cd")
+
+countries$country_cd <- c(rep(str_c("code_", 1:5), each= 44),"code_5")
+
+imported_data_inst <- files_per_country %>% 
   vroom::vroom(id = "country", 
                delim = "\n", 
                col_names = "institution", 
@@ -78,46 +86,273 @@ imported_data_inst <- fs::dir_ls( recurse = TRUE,
   mutate(country = basename(country) %>% stringr::str_remove_all("Institutes_|.txt"),
          id = atom_id,
          group = n_group
-         )
+         )  
+    left_join(countries )
 
 imported_data_inst %>% 
-  filter(country == "Algeria") %>% 
+  filter(country == "Colombia") %>% 
   ggplot(aes(group, fill = group), position = "stack")+
   geom_bar() +
   coord_flip()
 
+imported_data_inst <- vroom::vroom("testdt.txt")
+
+small_sample<- imported_data_inst
+small_sample<- imported_data_inst %>% sample_n(10, replace = T)
+
+num_groups <- small_sample$country %>% unique() %>% length() %/%20
+remai <- small_sample$country %>% unique() %>% length() %%20
+if (remai > 0) { num_groups <- num_groups + 1}
+
+country_codes <- small_sample %>% 
+  group_by(country) %>% 
+  group_keys() %>% 
+   group_by((row_number()-1) %/% (n()/num_groups)) %>% 
+  tidyr::nest() %>% 
+  pull(data) %>% 
+  bind_rows(.id = "country_table")
+
+imported_data_inst <- imported_data_inst %>% 
+  left_join(country_codes)
+
+
+```
+
+## geospatial
+```{r}
+nc <- read_sf("ne_110m_admin_0_countries/ne_110m_admin_0_countries.shp")
+nc
+names(nc) %>% head(90)
+nc %>% select(NAME, GDP_MD)
+plot_ly(nc, color = ~GDP_MD)
+
+plot_ly(nc, 
+        text = ~paste0(NAME, "is \n province number", GDP_MD),
+        hoveron = "fills",
+        hoverinfo = "text",
+        split = ~NAME,
+        )
+
+p <- ggplot() + 
+  geom_sf(data = nc) +
+  geom_sf( aes(size = "GDP_MD"), color = "red", alpha = 0.3)
+
+ggplotly(p)
+geom_sf(nc)
+```
+
+# APP
+
+```{r}
+library(shiny)
+
+ui <- fluidPage(
+  mainPanel(
+    uiOutput("plot1")
+  )
+)
+
+server <- function(input, output) {
+  
+  getData <- reactive({
+    req(input$fileIn)
+    dataIn <- as.data.frame(fread(input$fileIn$datapath))
+    dataIn$plotGroup <- make.names(dataIn$plotGroup)
+    return(dataIn)
+  })
+  
+  output$plot1 <- renderUI({
+    plotOutputList <- lapply(unique(getData()$plotGroup),
+                             function(i){
+                               plotname <- paste("plot", i, sep = "_")
+                               plotOutput(plotname)
+                             })
+    do.call(tagList, plotOutputList)
+  })
+  
+  observe({
+  for(i in unique(getData()$plotGroup)){
+    local({
+      iCurrent <- i
+      plotname <- paste("plot", iCurrent, sep = "_")
+      
+      output[[plotname]] <- renderPlot({
+        getData() %>%
+          filter(plotGroup == iCurrent) %>%
+        ggplot(aes(x = xGroup, y = yVar)) +
+          geom_point()
+      })
+    })
+  }})
+}
+
+shinyApp(ui, server)
+```
+
+## module plot
+```{r}
+# Plot module UI function
+plotUI <- function(id) {
+  ns <- NS(id)
+  
+  plotOutput(ns("plot"))
+}
+
+# Plot module server function
+plotServer <- function(id, Xvar, Yvar) {
+  moduleServer(
+    id,
+    function(input, output, session) {
+      output$plot <- renderPlot({
+        req(Xvar)
+
+        mtcars %>% 
+          ggplot(aes(get(Xvar), get(Yvar))) +
+            geom_point() + 
+            labs(x = Xvar, y = Yvar)
+      })
+    }
+  )
+}
+
+# Main UI
+ui <- fluidPage(
+  sidebarLayout(
+    sidebarPanel(
+      selectizeInput(inputId = "x",label = "X", choices = names(mtcars), multiple = T),
+      selectInput(inputId = "y",label = "Y", choices = names(mtcars), multiple = F)
+    ),
+    mainPanel(
+      uiOutput("plotUI")
+    )
+  )
+)
+
+# Main server
+server <- function(input, output, session) {
+  output$plotUI <- renderUI({
+    ns <- session$ns
+    tagList(
+      lapply(1:length(input$x),
+        function(i) {
+          plotUI(paste0("plot", i))
+        }
+      )
+    )
+  })
+  
+  observeEvent(c(input$x, input$y), {
+    plotServerList <- lapply(
+      1:length(input$x),
+      function(i) {
+        plotServer(paste0("plot", i), input$x[i], input$y)
+      }
+    )
+  })
+}
+
+shinyApp(ui, server)
 ```
 
 
+## sidebar
 ```{r}
-
-ui <- dashboardPage(
-    dashboardHeader(title = "Basic dashboard"),
-    dashboardSidebar(),
-    dashboardBody(
-        # Boxes need to be put in a row (or column)
-        fluidRow(
-            box(plotOutput("plot1", height = 250)),
-            
-            box(
-                title = "Controls",
-                sliderInput("slider", "Number of observations:", 1, 100, 50)
-            ),
-            DT::dataTableOutput("rawtable")
-        )
-    )
+sidebar <- dashboardSidebar(
+  sidebarMenu(
+    menuItem(
+      text = "General Statistics", 
+      tabName = "gen_stat", 
+      icon = icon("earth-europe"))
+  )
 )
+```
+
+## body
+```{r}
+body <- dashboardBody(
+  tabItems(
+    tabItem(tabName = "gen_stat",
+            h2("General dataset"),
+            fluidRow(
+              box(plotlyOutput("plot1")),
+              box(plotlyOutput("plot2"))),
+            fluidRow(
+              box(plotlyOutput("plot3")),
+              box(plotlyOutput("plot4"))),
+            fluidRow(
+              box(plotlyOutput("plot5"))),
+            DT::dataTableOutput("rawtable"))
+  )
+)
+```
+
+## ui
+```{r}
+ui <- dashboardPage(
+  dashboardHeader(title = "REMO Survey"),
+  dashboardSidebar( 
+    sidebar),
+  body = body
+  )
+```
+
+## server
+```{r}
+list_plots <- unique(imported_data_inst$country_cd) %>%
+  str_sort() %>% 
+  purrr::map(~imported_data_inst %>% 
+        mutate(country = str_trunc(country, 10)) %>% 
+        filter(country_cd == .x) %>% 
+        ggplot(aes(country, fill = group))+
+        geom_bar(position = "identity") +
+        ggtitle(label = str_c("Responses from ", .x, " countries"))+
+        coord_flip()+
+        PhD_theme 
+           ) %>% 
+  purrr::map(~ggplotly(p=.x))
+
+
+
+server <- function(input, output, session) {
+  output$plotUI <- renderUI({
+    ns <- session$ns
+    tagList(
+      lapply(1:length(input$x),
+        function(i) {
+          plotUI(paste0("plot", i))
+        }
+      )
+    )
+  })
+  
+  observeEvent(c(input$x, input$y), {
+    plotServerList <- lapply(
+      1:length(input$x),
+      function(i) {
+        plotServer(paste0("plot", i), input$x[i], input$y)
+      }
+    )
+  })
+}
 
 server <- function(input, output) { 
     
     
-    output$plot1 <- renderPlot({
-      imported_data_inst %>% 
-        filter(country == "Algeria") %>% 
-        ggplot(aes(institution, fill = group), position = "stack")+
-        geom_bar() +
-        coord_flip()+
-        ggtitle(label = "Responses from Algeria")
+    output$plot1 <- renderPlotly({
+          list_plots[[1]]    
+    })
+    
+    output$plot2 <- renderPlotly({
+          list_plots[[2]]
+    })
+    output$plot3 <- renderPlotly({
+          list_plots[[3]]
+    })
+    output$plot4 <- renderPlotly({
+          list_plots[[4]]
+    })
+    output$plot5 <- renderPlotly({
+          list_plots[[5]]
     })
     output$rawtable <- DT::renderDataTable((DT::datatable(imported_data_inst)))
 }

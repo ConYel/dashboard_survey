@@ -1,6 +1,6 @@
 # dashboard_survey
 
-for testing run:
+to test the rscript run:
 ```r
 Rscript dashboard_survey.R testdt.txt
 ```
