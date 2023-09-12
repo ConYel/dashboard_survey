@@ -158,6 +158,6 @@ server <- function(input, output, session) {
 
 print("Deploying Dashboard")
 shinyApp(ui, server,
-         options = list('shiny.port'=80, shiny.host='0.0.0.0')
+         options = list("port" = 3131, "host" = '0.0.0.0')
          )
 print("Finished.")

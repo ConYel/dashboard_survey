@@ -22,12 +22,14 @@ RUN Rscript -e 'remotes::install_version("DT",upgrade="never", version = "0.28")
 RUN Rscript -e 'remotes::install_version("shinydashboard",upgrade="never", version = "0.7.2")'
 RUN Rscript -e 'remotes::install_version("shiny",upgrade="never", version = "1.7.5")'
 RUN Rscript -e 'remotes::install_version("magrittr",upgrade="never", version = "2.0.3")'
+RUN Rscript -e 'remotes::install_version("vroom", upgrade="never", version = "1.6.3")'
 
-RUN mkdir /home/script
+
+#RUN mkdir /home/script
 COPY dashboard_survey.R .
-EXPOSE 80
+EXPOSE 3131
 
 ENTRYPOINT [ "Rscript", "dashboard_survey.R"]
-#CMD Rscript 'shiny::runApp("app.R", port = 3838, host = "0.0.0.0")' 
+#CMD Rscript 'shiny::runApp("app.R", port = 3838, host = "0.0.0.0")'
 #CMD R -e "options('shiny.port'=80,shiny.host='0.0.0.0');BLCARegMap::run_app()"
 #EXPOSE 80
