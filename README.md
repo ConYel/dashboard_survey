@@ -14,7 +14,7 @@ docker run --rm -P  -v ./testdt.txt:/home/testdt.txt  dash_survey:v0.2 /home/tes
 
 ```
 
-In another terminal check the port give by docker:
+In another terminal check the port exposed by docker:
 ```
 docker ps -a
 ```
