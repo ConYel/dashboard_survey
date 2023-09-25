@@ -3,7 +3,7 @@ print(paste0("file to be used: ", args[1]))
 print("Loading libraries")
 # load libraries -----
 my_packages <- c("vroom", "shiny", "shinydashboard", "DT",
-                 "purrr",
+                 "purrr", "viridis",
                  "dplyr", "stringr", "ggplot2", "plotly")
 suppressPackageStartupMessages(
     invisible(lapply(my_packages, library, character.only = TRUE)))
@@ -26,6 +26,7 @@ PhD_theme <-
                 panel.grid.major = element_line(linewidth = 0.2),
                 panel.grid.minor = element_line(linewidth = 0.1),
                 text = element_text(size = 12),
+                legend.position="none",
                 axis.title.x = element_text(margin = margin(t = 10, r = 10, b = 10, l = 10),
                                             colour = "black"),
                 axis.title.y = element_text(margin = margin(t = 10, r = 10, b = 10, l = 10),
@@ -53,16 +54,23 @@ country_codes <- main_dataset %>%
 main_dataset <- main_dataset %>%
     left_join(country_codes,by = join_by(country) )
 
+coloring <- unique(main_dataset$country_table) %>%
+    length() %>%
+    sample(LETTERS[1:8], ., replace = TRUE)
+
 print("Preparing Shiny Dashboard: plots")
 list_plots <- unique(main_dataset$country_table) %>%
-    str_sort() %>%
-    purrr::map(~main_dataset %>%
+    as.numeric() %>%
+    sort() %>%
+    purrr::map2(.y = coloring, ~main_dataset %>%
                    mutate(country = str_trunc(country, 30)) %>%
                    filter(country_table == .x) %>%
-                   ggplot(aes(country, fill = group))+
+                   #ggplot(aes(country, fill = group))+
+                   ggplot(aes(country, fill = country))+
                    geom_bar(position = "identity") +
                    ggtitle(label = str_c("Responses from part:", .x, " countries"))+
                    coord_flip()+
+                   scale_fill_viridis(discrete = TRUE, option = .y)+
                    PhD_theme
     ) %>%
     purrr::map(~ggplotly(p=.x))
