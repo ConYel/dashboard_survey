@@ -360,3 +360,96 @@ server <- function(input, output) {
 shinyApp(ui, server)
 ```
 
+
+```{r}
+# define some basic credentials (on data.frame)
+credentials <- data.frame(
+  user = c("shiny", "shinymanager"), # mandatory
+  password = c("azerty", "12345"), # mandatory
+  start = c("2019-04-15"), # optinal (all others)
+  expire = c(NA, NA),
+  admin = c(FALSE, TRUE),
+  comment = "Simple and secure authentification mechanism 
+  for single ‘Shiny’ applications.",
+  stringsAsFactors = FALSE
+)
+
+library(shiny)
+library(shinymanager)
+
+ui <- fluidPage(
+  tags$h2("My secure application"),
+  verbatimTextOutput("auth_output")
+)
+
+# Wrap your UI with secure_app
+ui <- secure_app(ui)
+
+
+server <- function(input, output, session) {
+  
+  # call the server part
+  # check_credentials returns a function to authenticate users
+  res_auth <- secure_server(
+    check_credentials = check_credentials(credentials)
+  )
+  
+  output$auth_output <- renderPrint({
+    reactiveValuesToList(res_auth)
+  })
+  
+  # your classic server logic
+  
+}
+
+shinyApp(ui, server)
+```
+
+```{r}
+# Init DB using credentials data
+credentials <- data.frame(
+  user = c("shiny", "shinymanager"),
+  password = c("azerty", "12345"),
+  # password will automatically be hashed
+  admin = c(FALSE, TRUE),
+  stringsAsFactors = FALSE
+)
+
+# you can use keyring package to set database key
+library(keyring)
+key_set("R-shinymanager-key", "obiwankenobi")
+
+#create a db
+library(RSQLite)
+mydb <- dbConnect(RSQLite::SQLite(), "./my-db.sqlite")
+dbDisconnect(mydb)
+# Init the database
+create_db(
+  credentials_data = credentials,
+  sqlite_path = "./my-db.sqlite", # will be created
+  passphrase = key_get("R-shinymanager-key", "obiwankenobi")
+  # passphrase = "passphrase_wihtout_keyring"
+)
+
+# Wrap your UI with secure_app, enabled admin mode or not
+ui <- secure_app(ui, enable_admin = TRUE)
+
+
+server <- function(input, output, session) {
+  
+  # check_credentials directly on sqlite db
+  res_auth <- secure_server(
+    check_credentials = check_credentials(
+        "./my-db.sqlite",
+        passphrase = key_get("R-shinymanager-key", "obiwankenobi")
+        # passphrase = "passphrase_wihtout_keyring"
+    )
+  )
+  
+  output$auth_output <- renderPrint({
+    reactiveValuesToList(res_auth)
+  })
+  
+  # your classic server logic
+}
+```
