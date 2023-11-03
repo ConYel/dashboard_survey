@@ -1,5 +1,5 @@
 # dashboard_survey
-
+![alt text](https://github.com/ConYel/dashboard_survey/blob/main/STAIRCASE.png?raw=true)
 ## Get repository and build image
 ```
 git clone https://github.com/ConYel/dashboard_survey.git
