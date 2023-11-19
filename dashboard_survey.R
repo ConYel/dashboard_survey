@@ -2,6 +2,8 @@ args <- commandArgs(TRUE)
 print(paste0("file to be used: ", args[1]))
 print("Loading libraries")
 # load libraries -----
+# to_install_for_shiboard <- c("bit64","tidyselect","mime","digest","xtable",
+# "ellipsis", "crayon","lifecycle")
 my_packages <- c("vroom", "shiny", "shinydashboard", "DT",
                  "purrr", "viridis",
                  "dplyr", "stringr", "ggplot2", "plotly")
