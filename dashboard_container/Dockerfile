@@ -1,32 +1,30 @@
-FROM docker.io/rocker/r-ver:4.3.1
+FROM docker.io/rhub/r-minimal:4.3.1-patched
 
-# Update env
-RUN apt-get update && apt-get install -y  \
-cmake git-core libcurl4-openssl-dev libpng-dev libproj-dev libssl-dev \
-libxml2-dev make pandoc pandoc-citeproc python3 zlib1g-dev \
-libxt-dev && rm -rf /var/lib/apt/lists/*
+RUN apk update
+RUN apk add --no-cache --update-cache \
+    --repository http://nl.alpinelinux.org/alpine/v3.16/main \
+    autoconf=2.71-r0 \
+    automake=1.16.5-r0 \
+    bash tzdata
+RUN echo "America/Edmonton" > /etc/timezone
 
-RUN mkdir -p /usr/local/lib/R/etc/ /usr/lib/R/etc/
+RUN installr -d \
+    -t "R-dev file linux-headers libxml2-dev gnutls-dev openssl-dev libx11-dev cairo-dev libxt-dev" \
+    -a "icu-libs icu libxml2 cairo libx11 font-xfree86-type1" \
+    dplyr@1.1.2 shiny@1.7.5 ggplot2@3.4.3 plotly@4.10.2 stringr@1.5.0 \
+    purrr@1.0.1 DT@0.28 shinydashboard@0.7.2  vroom@1.6.3 viridis@0.6.4 Cairo
 
-RUN echo "options(repos = c(CRAN = 'https://cran.rstudio.com/'), download.file.method = 'libcurl', Ncpus = 2)" | tee /usr/local/lib/R/etc/Rprofile.site | tee /usr/lib/R/etc/Rprofile.site
-RUN R -e 'install.packages("remotes")'
-RUN Rscript -e 'remotes::install_version("plotly",upgrade="never", version = "4.10.2")'
-RUN Rscript -e 'remotes::install_version("ggplot2",upgrade="never", version = "3.4.3")'
-RUN Rscript -e 'remotes::install_version("stringr",upgrade="never", version = "1.5.0")'
-RUN Rscript -e 'remotes::install_version("dplyr",upgrade="never", version = "1.1.2")'
-RUN Rscript -e 'remotes::install_version("purrr",upgrade="never", version = "1.0.1")'
-RUN Rscript -e 'remotes::install_version("DT",upgrade="never", version = "0.28")'
-RUN Rscript -e 'remotes::install_version("shinydashboard",upgrade="never", version = "0.7.2")'
-RUN Rscript -e 'remotes::install_version("shiny",upgrade="never", version = "1.7.5")'
-RUN Rscript -e 'remotes::install_version("magrittr",upgrade="never", version = "2.0.3")'
-RUN Rscript -e 'remotes::install_version("vroom", upgrade="never", version = "1.6.3")'
-RUN Rscript -e 'remotes::install_version("viridis", upgrade="never", version = "0.6.4")'
+RUN rm -rf /var/cache/apk/*
 
 
+RUN addgroup --system app && adduser --system --ingroup app app
 COPY Rprofile.site /usr/lib/R/etc/
-
 RUN mkdir /home/dashboard
+WORKDIR /home/dashboard
 COPY dashboard_survey.R .
+RUN chown app:app -R /home/dashboard
+USER app
+
 EXPOSE 3131
 
 ENTRYPOINT [ "Rscript", "dashboard_survey.R"]
