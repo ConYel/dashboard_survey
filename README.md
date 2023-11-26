@@ -10,7 +10,7 @@ docker build --tag dash_survey:v0.2
 to test the rscript run:
 (considering that you are still in the same dir of the repository)
 ```r
-docker run --rm -P  -v ./testdt.txt:/home/testdt.txt  dash_survey:v0.2 /home/testdt.txt
+docker run --rm -P  -v ./testdt.txt:/home/dashboard/testdt.txt  dash_survey:v0.2 ./testdt.txt
 
 ```
 

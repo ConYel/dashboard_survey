@@ -25,6 +25,6 @@ COPY dashboard_survey.R .
 RUN chown app:app -R /home/dashboard
 USER app
 
-EXPOSE 3131
+EXPOSE 3838
 
 ENTRYPOINT [ "Rscript", "dashboard_survey.R"]
