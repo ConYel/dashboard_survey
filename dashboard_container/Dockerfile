@@ -18,7 +18,7 @@ RUN rm -rf /var/cache/apk/*
 
 
 RUN addgroup --system app && adduser --system --ingroup app app
-COPY Rprofile.site /usr/lib/R/etc/
+COPY Rprofile.site /usr/local/lib/R/etc/
 RUN mkdir /home/dashboard
 WORKDIR /home/dashboard
 COPY dashboard_survey.R .
@@ -27,4 +27,4 @@ USER app
 
 EXPOSE 3838
 
-ENTRYPOINT [ "Rscript", "dashboard_survey.R"]
+#ENTRYPOINT [ "Rscript", "dashboard_survey.R"]

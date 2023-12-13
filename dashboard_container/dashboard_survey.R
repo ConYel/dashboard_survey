@@ -2,7 +2,7 @@ args <- commandArgs(TRUE)
 print(paste0("file to be used: ", args[1]))
 print("Loading libraries")
 # load libraries -----
-# to_install_for_shiboard <- c("bit64","tidyselect","mime","digest","xtable",
+# to_install_for_dboard <- c("bit64","tidyselect","mime","digest","xtable",
 # "ellipsis", "crayon","lifecycle")
 my_packages <- c("vroom", "shiny", "shinydashboard", "DT",
                  "purrr", "viridis",
@@ -12,7 +12,20 @@ suppressPackageStartupMessages(
 print("--- Libraries are loaded ---")
 
 # read the dataset  -----
-main_dataset <- vroom(args[1], show_col_types = FALSE)
+#main_dataset <- vroom("../staircase_response_count_parsed_2023-11-08.csv", del=",", show_col_types = FALSE)
+main_dataset <- vroom(args[1], del=",", show_col_types = FALSE)
+main_dataset <- main_dataset %>% 
+    mutate(
+        country = case_when(
+            is.na(country) ~ "Not selected",
+            str_detect(country, "unknown") ~ "Unknown",
+            str_detect(country, "other") ~  "Other",
+            TRUE ~ country
+    ), 
+        institution = case_when(
+            is.na(institution) ~ "I prefer not to say",
+            TRUE ~ institution
+        ))
 print("Dataset was imported")
 #print(head(main_dataset))
 
@@ -41,8 +54,8 @@ PhD_theme <-
 
 # checking how many countries exit to plot per plot -----
 print("Calculate how many countries per plot")
-num_groups <- main_dataset$country %>% unique() %>% length() %/%20
-remai <- main_dataset$country %>% unique() %>% length() %%20
+num_groups <- main_dataset$country %>% unique() %>% length() %/% 20
+remai <- main_dataset$country %>% unique() %>% length() %% 20
 if (remai > 0) { num_groups <- num_groups + 1}
 
 country_codes <- main_dataset %>%
@@ -54,37 +67,57 @@ country_codes <- main_dataset %>%
     bind_rows(.id = "country_table")
 
 main_dataset <- main_dataset %>%
-    left_join(country_codes,by = join_by(country) )
+    left_join(country_codes, by = join_by(country))
 
 coloring <- unique(main_dataset$country_table) %>%
     length() %>%
     sample(LETTERS[1:8], ., replace = TRUE)
 
 print("Preparing Shiny Dashboard: plots")
-list_plots <- unique(main_dataset$country_table) %>%
+list_plots_country <- unique(main_dataset$country_table) %>%
     as.numeric() %>%
     sort() %>%
     purrr::map2(.y = coloring, ~main_dataset %>%
-                   mutate(country = str_trunc(country, 30)) %>%
+                   mutate(country = str_trunc(country, 22)) %>%
                    filter(country_table == .x) %>%
-                   #ggplot(aes(country, fill = group))+
-                   ggplot(aes(country, fill = country))+
+                   ggplot(aes(reorder(country, country,
+                      function(x) length(x)), fill = country))+
                    geom_bar(position = "identity") +
-                   ggtitle(label = str_c("Responses from part:", .x, " countries"))+
+                   xlab("Country")+ 
+                   ggtitle(label = if_else(.x == 1,
+                                   "Responses by countries",
+                                   "Responses by countries continued"))+
                    coord_flip()+
                    scale_fill_viridis(discrete = TRUE, option = .y)+
                    PhD_theme
     ) %>%
     purrr::map(~ggplotly(p=.x))
 
-# UI etc -----
+
+list_plots_inst <- country_codes$country %>%
+    purrr::map(~main_dataset %>%
+                   filter(country == .x) %>%
+    ggplot(aes(reorder(institution, country,
+                      function(x) length(x)), fill = institution))+
+                   geom_bar(position = "identity") +
+                   xlab("Institution") +
+                   ggtitle(label = "Responses by institution") +
+                   coord_flip() +
+                   scale_fill_viridis(discrete = TRUE) +
+                   PhD_theme
+    ) %>%
+    purrr::map(~ggplotly(p=.x))
+
+names(list_plots_inst) <- country_codes$country
+
+# Modules
+## UI etc -----
 plotUI <- function(id) {
     ns <- NS(id)
-
     plotlyOutput(ns("plot"))
 }
 
-plotServer <- function(id, table_number) {
+plotServer <- function(id, table_number, list_plots) {
     moduleServer(
         id,
         function(input, output, session) {
@@ -96,18 +129,19 @@ plotServer <- function(id, table_number) {
     )
 }
 
+
 print("Preparing Shiny Dashboard: sidebar")
 
 sidebar <- dashboardSidebar(
     sidebarMenu(
         menuItem(
-            text = "General Statistics",
+            text = "Country Statistics",
             tabName = "gen_stat",
             icon = icon("earth-europe")),
         menuItem(
-            text = "Table",
+            text = "Institution Statistics",
             tabName = "dt_stat",
-            icon = icon("dashboard"))
+            icon = icon("chart-line"))
     )
 )
 
@@ -115,32 +149,45 @@ print("Preparing Shiny Dashboard: body")
 body <- dashboardBody(
     tabItems(
         tabItem(tabName = "gen_stat",
-                h2("General dataset barplots"),
+                h2("General dataset per country barplots"),
                 fluidRow(
                     uiOutput("plotUI")
                     )),
         tabItem(tabName = "dt_stat",
-                h2("Dataset Table"),
+                h2("Dataset per institution barplots"),
                 fluidRow(
-                    DT::dataTableOutput("rawtable"))
+                column(8,
+                    sidebarPanel(
+                        selectInput(
+                            inputId = "select_country",
+                            label = "Select country to plot answers from institutions",
+                            choices = country_codes$country,
+                            selected = country_codes$country[1],
+                            multiple = FALSE
+                        )    
+                    )
+                )
+                ),
+                fluidRow(
+                    plotlyOutput("plotcountry")
+                )
         )
     )
 )
 
 print("Preparing Shiny Dashboard: UI")
 ui <- dashboardPage(
-    dashboardHeader(title = "REMO Survey"),
+    dashboardHeader(title = "REMO Survey Results"),
     sidebar = sidebar,
     body = body
 )
-
 
 print("Preparing Shiny Dashboard: Server")
 server <- function(input, output, session) {
     # end the session when browser is closed
     # will be removed if it is on server
     #session$onSessionEnded(function() {
-     #   stopApp()
+    #   stopApp()
     #})
 
     output$plotUI <- renderUI({
@@ -149,25 +196,28 @@ server <- function(input, output, session) {
             lapply(1:num_groups,
                    function(i) {
                        plotUI(paste0("plot", i))
-                   }
-            )
+                   })
+            
         )
     })
-
+    
 #    observeEvent(c(input$x, input$y), {
-        plotServerList <- lapply(
-            1:num_groups,
-            function(i) {
-                plotServer(paste0("plot", i), i)
-            }
-        )
+    plotServerList <- lapply(
+       1:num_groups,
+         function(i) {
+             plotServer(paste0("plot", i), i, list_plots_country )
+         }
+    )
 #    })
+    output$plotcountry <- renderPlotly({
+                req(input$select_country)
+                list_plots_inst[[input$select_country]]
+            })
 
-    output$rawtable <- DT::renderDataTable((DT::datatable(main_dataset)))
 }
 
 print("Deploying Dashboard")
 shinyApp(ui, server,
-         options = list("port" = 3838, "host" = '0.0.0.0')
+        # options = list("port" = 3838, "host" = '0.0.0.0')
          )
 print("Finished.")
