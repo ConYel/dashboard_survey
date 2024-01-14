@@ -21,7 +21,7 @@ RUN addgroup --system app && adduser --system --ingroup app app
 COPY Rprofile.site /usr/local/lib/R/etc/
 RUN mkdir /home/dashboard
 WORKDIR /home/dashboard
-COPY dashboard_survey.R .
+#COPY dashboard_survey.R .
 RUN chown app:app -R /home/dashboard
 USER app
 

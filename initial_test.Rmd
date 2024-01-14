@@ -95,7 +95,9 @@ imported_data_inst %>%
   geom_bar() +
   coord_flip()
 
+
 imported_data_inst <- vroom::vroom("testdt.txt")
+imported_data_inst <- vroom::vroom("../../staircase_response_count_parsed_2023-11-08.csv",del ="," )
 
 small_sample<- imported_data_inst
 small_sample<- imported_data_inst %>% sample_n(10, replace = T)
