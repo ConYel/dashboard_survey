@@ -12,18 +12,18 @@ suppressPackageStartupMessages(
 print("--- Libraries are loaded ---")
 
 # read the dataset  -----
-#main_dataset <- vroom("../staircase_response_count_parsed_2023-11-08.csv", del=",", show_col_types = false)
-main_dataset <- vroom(args[1], del=",", show_col_types = false)
+#main_dataset <- vroom("../staircase_response_count_parsed_2023-11-08.csv", delim=",", show_col_types = FALSE)
+main_dataset <- vroom(args[1], del=",", show_col_types = FALSE)
 main_dataset <- main_dataset %>% 
     mutate(
         country = case_when(
             is.na(country) ~ "not selected",
             str_detect(country, "unknown") ~ "unknown",
             str_detect(country, "other") ~  "other",
-            true ~ country), 
+            TRUE ~ country), 
         institution = case_when(
             is.na(institution) ~ "i prefer not to say",
-            true ~ institution)
+            TRUE ~ institution)
     )
 print("dataset was imported")
 #print(head(main_dataset))
@@ -51,7 +51,7 @@ PhD_theme <-
             )
     )
 
-# checking how many countries exit to plot per plot -----
+# checking how many countries exist to plot per plot -----
 print("Calculate how many countries per plot")
 calc_n_plots <- function(x, dataset){
     num_groups <- dataset %>% pull(x) %>% unique() %>% length() %/% 20
@@ -59,6 +59,8 @@ calc_n_plots <- function(x, dataset){
     if (remai > 0) { num_groups <- num_groups + 1}
     return(num_groups)
 }
+
+all_answers  <- length(main_dataset$institution)
 
 country_groups <- calc_n_plots("country", main_dataset)
 #num_groups <- main_dataset$country %>% unique() %>% length() %/% 20
@@ -73,7 +75,9 @@ max_inst_count <- main_dataset %>%
 
 country_codes <- main_dataset %>%
     group_by(country) %>%
-    group_keys() %>%
+    #group_keys() %>%
+    count(country, sort = T) %>%
+    dplyr::select(-n) %>%
     group_by((row_number()-1) %/% (n()/ country_groups)) %>%
     tidyr::nest() %>%
     pull(data) %>%
@@ -220,9 +224,12 @@ print("Preparing Shiny Dashboard: body")
 body <- dashboardBody(
     tabItems(
         tabItem(tabName = "gen_stat",
+                fluidRow(infoBox("Overall sample size:", all_answers, 
+                    icon = icon("list"), fill = TRUE, color = "teal")
+                ),
                 h2("General dataset per country barplots"),
                 fluidRow(
-                    uiOutput("plot_countries")
+                     uiOutput("plot_countries")
                     )),
         tabItem(tabName = "dt_stat",
                 h2("Dataset per institution barplots"),
@@ -254,10 +261,10 @@ ui <- tagList(dashboardPage(
     #end dashboardPage position:absolute;z-index: 1000;
     tags$footer(
         HTML("<span style='font-size:18px;'>
-            2023-2024,&nbsp&nbsp&nbsp 
+            &nbsp&nbsp&nbsp 
             Licence:&nbsp&nbsp <i class='fa-regular fa-copyright'></i>
             <a href='https://github.com/ConYel/dashboard_survey/blob/main/LICENSE'>
-            &nbsp AGPL-3.0 &nbsp</a>.
+            &nbsp AGPL-3.0 &nbsp</a>2023-2024
             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
             Made with  &nbsp<i class='fa-solid fa-heart'></i> &nbsp by:&nbsp
             Konstantinos Geles &nbsp&nbsp
